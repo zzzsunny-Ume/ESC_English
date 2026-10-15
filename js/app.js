@@ -230,10 +230,6 @@ function renderHome() {
                     <div class="module-name">영작 · 단어 나열</div>
                     <div class="module-tags"><span>#순서 맞추기</span><span>#스피킹</span><span>#음성 인식</span></div>
                     <div class="module-desc">한국어 문장을 보고 단어를 탭하거나 🎤 말해서 영어 문장을 완성해요.</div>
-                    <div class="module-meta">
-                        <span class="pill">숙제 ${MOCK.orderPackages.filter(isVisible).length}개</span>
-                        ${u ? `<span class="pill done">✓ ${state.orderDone.size}개 완료</span>` : ''}
-                    </div>
                 </div>
             </a>
             <a class="card pressable module-card word" href="#/word">
@@ -241,10 +237,6 @@ function renderHome() {
                 <div class="module-body">
                     <div class="module-name">단어 공부</div>
                     <div class="module-desc">카드로 단어와 예문을 익히고, 테스트로 철자까지 확인해요.</div>
-                    <div class="module-meta">
-                        <span class="pill">세트 ${MOCK.wordQuizzes.filter(isVisible).length}개</span>
-                        ${u ? `<span class="pill done">✓ ${Object.keys(state.wordDone).length}개 통과</span>` : ''}
-                    </div>
                 </div>
             </a>
             <a class="card pressable module-card blank" href="#/blank">
@@ -253,11 +245,6 @@ function renderHome() {
                     <div class="module-name">빈칸 표현</div>
                     <div class="module-tags"><span>#타이핑</span><span>#핵심 표현</span><span>#복습 가능</span></div>
                     <div class="module-desc">예문 속 핵심 표현을 직접 타이핑해요. 10문장씩, 틀린 건 알아서 복습.</div>
-                    <div class="module-meta">
-                        <span class="pill new-badge">NEW</span>
-                        <span class="pill">${state.blank.cursor} / ${MOCK.blankTotal.toLocaleString()}</span>
-                        ${reviewCount ? `<span class="pill to-review">복습 ${reviewCount}</span>` : ''}
-                    </div>
                 </div>
             </a>
         </div>
