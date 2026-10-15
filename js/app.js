@@ -821,15 +821,19 @@ const VKB_ROWS = [
     { keys: [...'zxcvbnm'.split(''), { k: 'back', label: '⌫', cls: 'back', wide: true }] },
     { keys: [{ k: "'", cls: 'punct' }, { k: '-', cls: 'punct' }, { k: ' ', label: 'space', cls: 'space', grow: 4 }, { k: 'enter', label: '↵', cls: 'enter', wide: true }] }
 ];
-const VOWEL_CLS = { a: 'v-blue', e: 'v-green', i: 'v-orange', o: 'v-pink', u: 'v-purple' };
-
+// 키는 한 가지 색(--key-tint)만 쓰고, 행·열 위치의 합이 짝수인 칸만 채워 바둑판처럼 보이게 한다
 function vkbHtml() {
-    const row = r => `<div class="vkb-row">${r.keys.map(key => {
-        const o = typeof key === 'string' ? { k: key } : key;
-        const cls = [o.cls, VOWEL_CLS[o.k], o.wide ? 'wide' : ''].filter(Boolean).join(' ');
-        return `<button class="vkb-key ${cls}" data-k="${esc(o.k)}" style="${o.grow ? `flex-grow:${o.grow}` : ''}" aria-label="${esc(o.label || o.k)}">${esc(o.label || o.k)}</button>`;
-    }).join('')}</div>`;
-    return `<div class="vkb" role="group" aria-label="가상 키보드">${VKB_ROWS.map(row).join('')}</div>`;
+    let r = 0;
+    const row = keys => {
+        const cells = keys.map((key, c) => {
+            const o = typeof key === 'string' ? { k: key } : key;
+            const cls = [o.cls, o.wide ? 'wide' : '', (r + c) % 2 === 0 ? 'tint' : ''].filter(Boolean).join(' ');
+            return `<button class="vkb-key ${cls}" data-k="${esc(o.k)}" style="${o.grow ? `flex-grow:${o.grow}` : ''}" aria-label="${esc(o.label || o.k)}">${esc(o.label || o.k)}</button>`;
+        }).join('');
+        r++;
+        return `<div class="vkb-row">${cells}</div>`;
+    };
+    return `<div class="vkb" role="group" aria-label="가상 키보드">${VKB_ROWS.map(rw => row(rw.keys)).join('')}</div>`;
 }
 
 // pointerdown에서 기본 동작을 막아 입력칸 포커스가 빠지지 않게 한다
