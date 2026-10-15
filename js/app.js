@@ -733,13 +733,13 @@ function renderBlankPlay(mode) {
             <div class="blank-meaning">뜻 · <b>${esc(it.meaning)}</b></div>
             <div class="cloze" id="cloze">${clozeHtml}</div>
             <div id="blank-feedback"></div>
-            <div class="hint-line" id="hint-line">빈칸 ${answers.length}개 · ↵ 키로 제출 · 대소문자는 구분하지 않아요</div>
+            <div class="hint-line" id="hint-line">빈칸을 다 채우면 자동으로 채점돼요 · 대소문자는 구분하지 않아요</div>
         </div>
         <div class="blank-dock">
             <div class="blank-actions">
                 <button class="btn secondary" id="bl-hint">💡 힌트</button>
                 <button class="btn secondary" id="bl-pass">모르겠음</button>
-                <button class="btn" id="bl-submit">확인</button>
+                <button class="btn hidden" id="bl-next">다음</button>
             </div>
             ${vkbHtml()}
         </div>
@@ -757,7 +757,10 @@ function renderBlankPlay(mode) {
         });
         // 빈칸 정답과 글자 수가 같아지면 자동으로 다음 빈칸으로
         inp.addEventListener('input', () => {
-            if (normalizeAnswer(inp.value) === normalizeAnswer(answers[k]) && inputs[k + 1]) inputs[k + 1].focus();
+            // 칸이 정답 길이만큼 차면 맞든 틀리든 다음 칸으로 이동
+            if (inp.value.length >= answers[k].length && inputs[k + 1]) inputs[k + 1].focus();
+            // 모든 빈칸을 채우면 확인 버튼 없이 바로 채점한다
+            if (!done && inputs.every((x, j) => x.value.length >= answers[j].length)) submit(false);
         });
     });
 
@@ -798,14 +801,14 @@ function renderBlankPlay(mode) {
         } else {
             const full = it.cloze.replace(/\{([^}]+)\}/g, (_, a) => `<b>${esc(a)}</b>`);
             $('#blank-feedback').innerHTML = `<div class="reveal">정답 · ${full}<br><span style="color:var(--text-2)">표현: ${esc(it.expr)}</span></div>`;
-            $('#bl-submit').textContent = '다음';
-            $('#bl-hint').disabled = true;
-            $('#bl-pass').disabled = true;
+            $('#bl-next').classList.remove('hidden');
+            $('#bl-hint').classList.add('hidden');
+            $('#bl-pass').classList.add('hidden');
         }
     }
     function next() { bs.idx++; renderBlankPlay(mode); }
 
-    $('#bl-submit').onclick = () => (done ? next() : submit(false));
+    $('#bl-next').onclick = next;
     $('#bl-pass').onclick = () => submit(true);
     $('#bl-hint').onclick = () => {
         hinted = true;
