@@ -240,6 +240,15 @@ function renderHome() {
             </a>
         </div>
 
+        <a class="card pressable club-card" href="https://open.kakao.com/o/sdHBja6h" target="_blank" rel="noopener">
+            <div class="club-icon">🤝</div>
+            <div class="club-body">
+                <div class="club-title">이 모든 걸 함께하는 동아리</div>
+                <div class="club-desc">같이 공부할 사람을 찾고 있다면 가입 문의를 남겨 주세요.</div>
+            </div>
+            <span class="club-go">가입 문의 →</span>
+        </a>
+
         <footer class="site-footer">
             <p>이 페이지의 모든 콘텐츠는 ESC(이상한 스피킹 클럽) 운영자에게 귀속됩니다.</p>
             <a href="mailto:jisun645028@gmail.com">문의: jisun645028@gmail.com</a>

@@ -506,3 +506,11 @@ a.card { text-decoration: none; color: inherit; }
 /* 홈 모듈 카드의 해시태그 */
 .module-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
 .module-tags span { font-size: 12px; font-weight: 650; color: var(--text-2); }
+
+/* 동아리 가입 문의 카드 */
+.club-card { display: flex; align-items: center; gap: 14px; margin-top: 18px; text-decoration: none; }
+.club-icon { width: 44px; height: 44px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 14px; background: var(--surface-soft); font-size: 22px; }
+.club-body { flex: 1; min-width: 0; }
+.club-title { font-size: 16px; font-weight: 750; }
+.club-desc { margin-top: 3px; font-size: 13px; color: var(--text-2); line-height: 1.4; word-break: keep-all; }
+.club-go { flex: 0 0 auto; font-size: 13px; font-weight: 700; color: var(--text); }
