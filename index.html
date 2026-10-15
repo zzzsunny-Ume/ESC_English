@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#F3F3F0">
+    <title>ESC English</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app" id="app">
+        <!-- 상단 바: 홈이 아닌 화면에서는 뒤로가기 + 제목 -->
+        <header class="topbar" id="topbar">
+            <button class="icon-btn" id="topbar-back" aria-label="뒤로">
+                <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+            </button>
+            <a class="brand" href="#/">🍀 ESC</a>
+            <div class="topbar-title" id="topbar-title"></div>
+            <button class="account-btn" id="account-btn" aria-label="계정"></button>
+        </header>
+
+        <main class="view" id="view"></main>
+    </div>
+
+    <!-- 로그인 바텀시트 -->
+    <div class="sheet-backdrop" id="login-sheet" aria-hidden="true">
+        <div class="sheet" role="dialog" aria-labelledby="login-title">
+            <div class="sheet-grip"></div>
+            <h2 id="login-title" class="sheet-title">로그인하고 기록 남기기</h2>
+            <p class="sheet-desc">로그인하지 않아도 모든 학습을 그대로 이용할 수 있어요.<br>로그인하면 어떤 숙제를 했는지, 빈칸 학습 진도와 복습 목록이 기기 간에 저장돼요.</p>
+
+            <button class="oauth-btn kakao" data-provider="kakao">
+                <span class="oauth-icon">💬</span>카카오로 계속하기
+            </button>
+            <button class="oauth-btn google" data-provider="google">
+                <span class="oauth-icon g">G</span>Google로 계속하기
+            </button>
+            <p class="inapp-warning hidden" id="inapp-warning">
+                카카오톡 안에서는 Google 로그인이 막혀 있어요. 오른쪽 아래 <b>⋯ → 다른 브라우저로 열기</b>를 누르거나 카카오 로그인을 이용해 주세요.
+            </p>
+
+            <label class="check-row">
+                <input type="checkbox" id="keep-login" checked>
+                <span>로그인 상태 유지 (이 기기에서 자동 로그인)</span>
+            </label>
+
+            <button class="text-btn" id="login-cancel">로그인 없이 계속하기</button>
+        </div>
+    </div>
+
+    <!-- 확인 모달 (오답 등) -->
+    <div class="modal-backdrop" id="modal" aria-hidden="true">
+        <div class="modal-card" role="dialog">
+            <div class="modal-title" id="modal-title"></div>
+            <div class="modal-body" id="modal-body"></div>
+            <div class="modal-actions" id="modal-actions"></div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast" role="status"></div>
+    <div id="burst"></div>
+
+    <script src="js/mock-data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
