@@ -227,7 +227,7 @@ function renderHome() {
             <a class="card pressable module-card order" href="#/order">
                 <div class="module-icon">🧩</div>
                 <div class="module-body">
-                    <div class="module-name">영작 · 단어 나열</div>
+                    <div class="module-name">스피킹</div>
                     <div class="module-tags"><span>#순서 맞추기</span><span>#스피킹</span><span>#음성 인식</span></div>
                     <div class="module-desc">한국어 문장을 보고 단어를 탭하거나 🎤 말해서 영어 문장을 완성해요.</div>
                 </div>
@@ -268,11 +268,11 @@ function renderHome() {
     if (hl) hl.onclick = openLogin;
 }
 
-// ───────────────────────── 영작 · 단어 나열 ─────────────────────────
+// ───────────────────────── 스피킹 ─────────────────────────
 let orderFilter = { type: 'all', q: '', status: 'all' };
 
 function renderOrderList() {
-    setTop('영작 · 단어 나열', '');
+    setTop('스피킹', '');
     const types = ['all', ...new Set(MOCK.orderPackages.filter(isVisible).map(p => p.type))];
     view.innerHTML = `
         <div class="list-tools">
