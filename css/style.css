@@ -467,3 +467,73 @@ a { color: inherit; }
     .cloze { font-size: 26px; }
 }
 a.card { text-decoration: none; color: inherit; }
+
+/* ───────── 빈칸 전용 가상 키보드 ───────── */
+:root {
+    --k-blue: #DCE8FB;
+    --k-green: #DDF1E4;
+    --k-orange: #FCE9D2;
+    --k-pink: #FBE1EC;
+    --k-purple: #E8E2FA;
+    --k-yellow: #FBF3C7;
+    --k-red: #FBE0DC;
+}
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --k-blue: #1F2F4D;
+        --k-green: #1E3A2A;
+        --k-orange: #3F2E17;
+        --k-pink: #3D2232;
+        --k-purple: #2E2A4A;
+        --k-yellow: #3D3816;
+        --k-red: #3D2220;
+    }
+}
+:root[data-theme="dark"] {
+    --k-blue: #1F2F4D;
+    --k-green: #1E3A2A;
+    --k-orange: #3F2E17;
+    --k-pink: #3D2232;
+    --k-purple: #2E2A4A;
+    --k-yellow: #3D3816;
+    --k-red: #3D2220;
+}
+
+.blank-dock { margin-top: auto; padding-top: 14px; }
+.blank-actions { display: flex; gap: 8px; margin-bottom: 12px; }
+.blank-actions .btn { min-height: 48px; }
+.blank-actions .btn.secondary { flex: 0 0 auto; width: auto; padding: 0 14px; font-size: 14px; }
+.blank-actions .btn:not(.secondary) { flex: 1; }
+
+.vkb {
+    display: flex; flex-direction: column; gap: 7px;
+    padding: 10px 6px max(10px, env(safe-area-inset-bottom, 0px));
+    border-radius: 22px;
+    background: var(--chip);
+    user-select: none; -webkit-user-select: none;
+}
+.vkb-row { display: flex; justify-content: center; gap: 6px; }
+.vkb-key {
+    flex: 1 1 0; min-width: 0; max-width: 42px;
+    height: 46px; padding: 0;
+    border: 0; border-radius: 12px;
+    background: var(--surface);
+    color: var(--text);
+    font-size: 17px; font-weight: 650;
+    box-shadow: 0 2px 0 var(--border);
+    transition: transform 0.08s, box-shadow 0.08s, background 0.15s;
+}
+.vkb-key.wide { flex: 1.6 1 0; max-width: 62px; font-size: 16px; }
+.vkb-key.space { flex: 4 1 0; max-width: none; font-size: 14px; font-weight: 600; color: var(--text-2); }
+.vkb-key.punct { font-size: 20px; color: var(--text-2); }
+.vkb-key.v-blue { background: var(--k-blue); }
+.vkb-key.v-green { background: var(--k-green); }
+.vkb-key.v-orange { background: var(--k-orange); }
+.vkb-key.v-pink { background: var(--k-pink); }
+.vkb-key.v-purple { background: var(--k-purple); }
+.vkb-key.punct { background: var(--k-yellow); }
+.vkb-key.back { background: var(--k-red); color: var(--bad); }
+.vkb-key.enter { background: var(--blank); color: #FFFFFF; box-shadow: 0 2px 0 color-mix(in srgb, var(--blank) 60%, #000); }
+.vkb-key.pressed, .vkb-key:active { transform: translateY(2px); box-shadow: none; filter: brightness(0.96); }
+.vkb-key:focus-visible { outline: 2px solid var(--blank); outline-offset: 2px; }
+.blank-actions.solo .btn { flex: 1; }

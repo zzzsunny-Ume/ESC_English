@@ -539,9 +539,12 @@ function renderWordTest(i) {
         <div class="card quiz-card" id="quiz-card">
             <div class="quiz-meaning">💡 ${esc(q.meaning)}</div>
             <div class="quiz-sentence">${esc(q.sentence)}</div>
-            <input class="big-input" id="word-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="정답을 입력하면 바로 넘어가요">
+            <input class="big-input" id="word-input" inputmode="none" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="정답을 입력하면 바로 넘어가요">
         </div>
-        <div class="game-bottom"><button class="btn secondary" id="pass">🤷 모르겠음 (Pass)</button></div>
+        <div class="blank-dock">
+            <div class="blank-actions solo"><button class="btn secondary" id="pass">🤷 모르겠음 (Pass)</button></div>
+            ${vkbHtml()}
+        </div>
     `;
     const input = $('#word-input');
     setTimeout(() => input.focus(), 30);
@@ -558,6 +561,21 @@ function renderWordTest(i) {
     };
     input.addEventListener('input', () => answers.includes(normalizeAnswer(input.value)) && feedback(true));
     $('#pass').onclick = () => feedback(false);
+
+    // 가상 키보드 (빈칸 학습과 같은 키보드). 정답이 아니면 ↵는 아무 일도 하지 않고 안내만 한다
+    const maxLen = Math.max(...q.answers.map(a => a.length));
+    bindVkb(view.querySelector('.vkb'), {
+        press(key) {
+            if (ws.busy) return;
+            if (key === 'enter') { toast('철자를 다시 확인해 보세요'); return; }
+            if (key === 'back') input.value = input.value.slice(0, -1);
+            else {
+                if (input.value.length >= maxLen) return;
+                input.value += key;
+            }
+            input.dispatchEvent(new Event('input'));
+        }
+    });
 }
 
 function renderWordResult() {
@@ -606,7 +624,6 @@ function renderBlankHome() {
     const total = MOCK.blankTotal;
     const pct = (b.cursor / total) * 100;
     const start = b.cursor + 1, end = Math.min(total, b.cursor + BLANK_SESSION_SIZE);
-    const nextItem = MOCK.blankItems[b.cursor % MOCK.blankItems.length];
     view.innerHTML = `
         ${state.user ? '' : `<div class="guest-banner" style="margin:0 0 12px"><span>💾</span><span>지금은 <b>이 기기에만</b> 진도가 저장돼요</span><button id="bl-login">로그인</button></div>`}
         <div class="card blank-hero">
@@ -615,7 +632,7 @@ function renderBlankHome() {
                 <div class="hero-caption">${pct.toFixed(1)}%</div>
             </div>
             <div class="progress-bar"><span style="width:${Math.max(pct, 1)}%"></span></div>
-            <div class="next-chunk">다음 학습: <b>${start}~${end}번째 문장</b><br><span style="color:var(--text-2)">${esc(nextItem.season)} · ${esc(nextItem.ep)}부터 이어서 · 프렌즈 표현</span></div>
+            <div class="next-chunk">다음 학습: <b>${start}~${end}번째 문장</b></div>
         </div>
 
         <div class="action-grid">
@@ -693,8 +710,12 @@ function renderBlankPlay(mode) {
 
     let n = 0;
     const clozeHtml = parts.map(p => p.text !== undefined ? esc(p.text)
-        : `<input class="cloze-input" data-k="${n++}" style="width:${Math.max(3, p.answer.length + 1)}ch" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="빈칸">`).join('');
+        : `<input class="cloze-input" data-k="${n++}" style="width:${Math.max(3, p.answer.length + 1)}ch" inputmode="none" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="빈칸">`).join('');
     const answers = parts.filter(p => p.answer).map(p => p.answer);
+    const tags = [
+        entry.kind === 'review' ? '<span class="pill mode-review">🔁 복습</span>' : '',
+        entry.kind === 'abyss' ? '<span class="pill mode-abyss">🕳️ 심연에서 올라옴</span>' : ''
+    ].join('');
 
     view.innerHTML = `
         <div class="game-head">
@@ -703,29 +724,29 @@ function renderBlankPlay(mode) {
         </div>
         <div class="dots">${bs.queue.map((_, k) => `<i class="${k < bs.idx ? (bs.results[k].ok ? 'ok' : 'ng') : ''} ${k === bs.idx ? 'cur' : ''}"></i>`).join('')}</div>
         <div class="card">
-            <div class="blank-meta">
-                <span class="pill">${esc(it.season)} · ${esc(it.ep)}</span>
-                <span class="pill">${esc(it.level)}</span>
-                ${entry.kind === 'review' ? '<span class="pill mode-review">🔁 복습</span>' : ''}
-                ${entry.kind === 'abyss' ? '<span class="pill mode-abyss">🕳️ 심연에서 올라옴</span>' : ''}
-            </div>
+            ${tags ? `<div class="blank-meta">${tags}</div>` : ''}
             <div class="blank-meaning">뜻 · <b>${esc(it.meaning)}</b></div>
             <div class="cloze" id="cloze">${clozeHtml}</div>
             <div id="blank-feedback"></div>
-            <div class="hint-line" id="hint-line">빈칸 ${answers.length}개 · Enter로 제출 · 대소문자는 구분하지 않아요</div>
+            <div class="hint-line" id="hint-line">빈칸 ${answers.length}개 · ↵ 키로 제출 · 대소문자는 구분하지 않아요</div>
         </div>
-        <div class="game-bottom">
-            <button class="btn secondary" id="bl-hint" style="flex:0 0 auto;width:auto">💡 힌트</button>
-            <button class="btn secondary" id="bl-pass" style="flex:0 0 auto;width:auto">모르겠음</button>
-            <button class="btn" id="bl-submit">확인</button>
+        <div class="blank-dock">
+            <div class="blank-actions">
+                <button class="btn secondary" id="bl-hint">💡 힌트</button>
+                <button class="btn secondary" id="bl-pass">모르겠음</button>
+                <button class="btn" id="bl-submit">확인</button>
+            </div>
+            ${vkbHtml()}
         </div>
     `;
 
     const inputs = [...view.querySelectorAll('.cloze-input')];
-    setTimeout(() => inputs[0].focus(), 30);
+    let activeInput = inputs[0];
     let hinted = false, done = false;
+    setTimeout(() => inputs[0].focus(), 30);
 
     inputs.forEach((inp, k) => {
+        inp.addEventListener('focus', () => { activeInput = inp; });
         inp.addEventListener('keydown', e => {
             if (e.key === 'Enter') { e.preventDefault(); done ? next() : submit(false); }
         });
@@ -733,6 +754,23 @@ function renderBlankPlay(mode) {
         inp.addEventListener('input', () => {
             if (normalizeAnswer(inp.value) === normalizeAnswer(answers[k]) && inputs[k + 1]) inputs[k + 1].focus();
         });
+    });
+
+    // 가상 키보드: 입력칸에 직접 글자를 넣고 input 이벤트를 발생시켜 위 로직을 그대로 재사용
+    bindVkb(view.querySelector('.vkb'), {
+        press(key) {
+            if (key === 'enter') { done ? next() : submit(false); return; }
+            if (done) return;
+            const target = activeInput;
+            if (!target || target.disabled) return;
+            if (key === 'back') target.value = target.value.slice(0, -1);
+            else {
+                const k = inputs.indexOf(target);
+                if (target.value.length >= answers[k].length) return;
+                target.value += key;
+            }
+            target.dispatchEvent(new Event('input'));
+        }
     });
 
     function submit(gaveUp) {
@@ -769,6 +807,36 @@ function renderBlankPlay(mode) {
         inputs.forEach((inp, k) => { if (!inp.value) inp.placeholder = answers[k][0] + '…'; });
         $('#hint-line').textContent = `힌트: 표현 원형은 "${it.expr}" (첫 글자 표시됨)`;
     };
+}
+
+// ───────── 가상 키보드 (빈칸 전용, 네이티브 키보드 대신 사용) ─────────
+const VKB_ROWS = [
+    { keys: 'qwertyuiop'.split('') },
+    { keys: 'asdfghjkl'.split('') },
+    { keys: [...'zxcvbnm'.split(''), { k: 'back', label: '⌫', cls: 'back', wide: true }] },
+    { keys: [{ k: "'", cls: 'punct' }, { k: '-', cls: 'punct' }, { k: ' ', label: 'space', cls: 'space', grow: 4 }, { k: 'enter', label: '↵', cls: 'enter', wide: true }] }
+];
+const VOWEL_CLS = { a: 'v-blue', e: 'v-green', i: 'v-orange', o: 'v-pink', u: 'v-purple' };
+
+function vkbHtml() {
+    const row = r => `<div class="vkb-row">${r.keys.map(key => {
+        const o = typeof key === 'string' ? { k: key } : key;
+        const cls = [o.cls, VOWEL_CLS[o.k], o.wide ? 'wide' : ''].filter(Boolean).join(' ');
+        return `<button class="vkb-key ${cls}" data-k="${esc(o.k)}" style="${o.grow ? `flex-grow:${o.grow}` : ''}" aria-label="${esc(o.label || o.k)}">${esc(o.label || o.k)}</button>`;
+    }).join('')}</div>`;
+    return `<div class="vkb" role="group" aria-label="가상 키보드">${VKB_ROWS.map(row).join('')}</div>`;
+}
+
+// pointerdown에서 기본 동작을 막아 입력칸 포커스가 빠지지 않게 한다
+function bindVkb(el, { press }) {
+    el.addEventListener('pointerdown', e => {
+        const btn = e.target.closest('[data-k]');
+        if (!btn) return;
+        e.preventDefault();
+        btn.classList.add('pressed');
+        setTimeout(() => btn.classList.remove('pressed'), 120);
+        press(btn.dataset.k);
+    });
 }
 
 function applyBlankResults() {
