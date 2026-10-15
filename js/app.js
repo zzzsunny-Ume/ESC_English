@@ -23,8 +23,8 @@ const store = {
 const state = {
     user: store.get('user', null),
     // 아래 기록은 로그인 시 서버에서 받아오는 값이라고 가정한 목업
-    orderDone: new Set([0, 2, 3]),
-    wordDone: { 0: { score: 5, total: 6 } },
+    orderDone: new Set(),
+    wordDone: {},
     blank: store.get('blank', {
         cursor: 30,                    // 지금까지 '학습 시작'으로 소화한 문장 수
         review: [                      // 복습함: 틀린 문장 + 복습 정답 횟수
@@ -38,6 +38,28 @@ const state = {
         sessions: 3
     })
 };
+
+// 실제 콘텐츠: 영작은 ESC_SPEAKING 의 data.json, 단어는 ESC_WORD 의 data.json (data/ 폴더에 복사해 둠)
+// 배열 위치(index)가 곧 URL의 ID이므로 데이터 파일은 기존 항목의 순서를 바꾸지 말고 끝에 추가한다.
+function todayStr() {
+    const d = new Date(), p = n => String(n).padStart(2, '0');
+    return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+const isVisible = item => item.date <= todayStr();
+const byDateDesc = (a, b) => {
+    const x = (a.p || a).date, y = (b.p || b).date;
+    return x < y ? 1 : x > y ? -1 : 0;
+};
+
+async function loadContent() {
+    const [order, word] = await Promise.all([
+        fetch('data/order.json').then(r => { if (!r.ok) throw new Error('order'); return r.json(); }),
+        fetch('data/word.json').then(r => { if (!r.ok) throw new Error('word'); return r.json(); })
+    ]);
+    MOCK.orderPackages = order.map(p => ({ ...p, type: p.type || '미분류' }));
+    MOCK.wordQuizzes = word;
+    render();
+}
 
 const BLANK_ABYSS_HITS = 3;     // 복습에서 3번 맞추면 심연으로
 const BLANK_SESSION_SIZE = 10;  // 한 세션 10문장
@@ -209,7 +231,7 @@ function renderHome() {
                     <div class="module-tags"><span>#순서 맞추기</span><span>#스피킹</span><span>#음성 인식</span></div>
                     <div class="module-desc">한국어 문장을 보고 단어를 탭하거나 🎤 말해서 영어 문장을 완성해요.</div>
                     <div class="module-meta">
-                        <span class="pill">숙제 ${MOCK.orderPackages.length}개</span>
+                        <span class="pill">숙제 ${MOCK.orderPackages.filter(isVisible).length}개</span>
                         ${u ? `<span class="pill done">✓ ${state.orderDone.size}개 완료</span>` : ''}
                     </div>
                 </div>
@@ -220,7 +242,7 @@ function renderHome() {
                     <div class="module-name">단어 공부</div>
                     <div class="module-desc">카드로 단어와 예문을 익히고, 테스트로 철자까지 확인해요.</div>
                     <div class="module-meta">
-                        <span class="pill">세트 ${MOCK.wordQuizzes.length}개</span>
+                        <span class="pill">세트 ${MOCK.wordQuizzes.filter(isVisible).length}개</span>
                         ${u ? `<span class="pill done">✓ ${Object.keys(state.wordDone).length}개 통과</span>` : ''}
                     </div>
                 </div>
@@ -264,7 +286,7 @@ let orderFilter = { type: 'all', q: '', status: 'all' };
 
 function renderOrderList() {
     setTop('영작 · 단어 나열', '');
-    const types = ['all', ...new Set(MOCK.orderPackages.map(p => p.type))];
+    const types = ['all', ...new Set(MOCK.orderPackages.filter(isVisible).map(p => p.type))];
     view.innerHTML = `
         <div class="list-tools">
             <label class="search-box">${icon.search}<input id="order-q" type="search" placeholder="제목 · 문장 검색" value="${esc(orderFilter.q)}"></label>
@@ -279,6 +301,8 @@ function renderOrderList() {
         const q = normalizeAnswer(orderFilter.q);
         const items = MOCK.orderPackages
             .map((p, i) => ({ p, i, done: state.orderDone.has(i) }))
+            .filter(({ p }) => isVisible(p))
+            .sort((a, b) => byDateDesc(a.p, b.p))
             .filter(({ p }) => orderFilter.type === 'all' || p.type === orderFilter.type)
             .filter(({ p }) => !q || normalizeAnswer(p.title + ' ' + p.questions.map(x => x.ko + ' ' + x.en).join(' ')).includes(q))
             .filter(({ done }) => !state.user || orderFilter.status === 'all' || (orderFilter.status === 'done') === done);
@@ -301,7 +325,7 @@ let og = null; // order game state
 
 function renderOrderGame(pkgIdx) {
     const pkg = MOCK.orderPackages[pkgIdx];
-    if (!pkg) return go('order');
+    if (!pkg || !isVisible(pkg)) return go('order');
     if (!og || og.pkgIdx !== pkgIdx) {
         og = { pkgIdx, qIdx: 0, startedAt: Date.now(), tap: 0, voice: 0, wrong: 0 };
     }
@@ -454,7 +478,7 @@ function renderWordList() {
     view.innerHTML = `
         <div class="list-tools"><label class="search-box">${icon.search}<input type="search" placeholder="퀴즈 제목 검색"></label></div>
         <div class="hw-list">
-            ${MOCK.wordQuizzes.map((qz, i) => {
+            ${MOCK.wordQuizzes.map((qz, i) => ({ qz, i })).filter(({ qz }) => isVisible(qz)).sort((a, b) => byDateDesc(a.qz, b.qz)).map(({ qz, i }) => {
                 const r = state.wordDone[i];
                 return `<a class="card pressable hw-item ${r ? 'is-done' : ''}" href="#/word/${i}">
                     <div class="hw-main">
@@ -470,7 +494,7 @@ function renderWordList() {
 
 function renderWordMode(i) {
     const qz = MOCK.wordQuizzes[i];
-    if (!qz) return go('word');
+    if (!qz || !isVisible(qz)) return go('word');
     setTop(qz.title, 'word');
     const r = state.wordDone[i];
     view.innerHTML = `
@@ -946,7 +970,7 @@ function renderMe() {
         return;
     }
     const u = state.user, b = state.blank;
-    const orderTotal = MOCK.orderPackages.length, wordTotal = MOCK.wordQuizzes.length;
+    const orderTotal = MOCK.orderPackages.filter(isVisible).length, wordTotal = MOCK.wordQuizzes.filter(isVisible).length;
     const heat = Array.from({ length: 28 }, (_, k) => ['', 'l1', 'l2', 'l3'][(k * 7 + 3) % 5 % 4]);
     view.innerHTML = `
         <div class="card profile">
@@ -981,3 +1005,6 @@ function renderMe() {
 }
 
 render();
+loadContent().catch(() => {
+    view.innerHTML = '<div class="empty">콘텐츠를 불러오지 못했어요. 새로고침해 주세요.</div>';
+});

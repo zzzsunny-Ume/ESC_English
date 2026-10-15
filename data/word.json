@@ -1,0 +1,3581 @@
+[
+    {
+        "title": "성격 심화🤓",
+        "date": "2026-03-03",
+        "questions": [
+            {
+                "meaning": "세심한 / 꼼꼼한",
+                "answers": ["Meticulous"],
+                "sentence": "He is ___ about keeping his records."
+            },
+            {
+                "meaning": "사교적인 / 남들과 어울리기 좋아하는",
+                "answers": ["Gregarious"],
+                "sentence": "She is such a ___ and outgoing person."
+            },
+            {
+                "meaning": "독단적인 / 자기주장이 강한",
+                "answers": ["Assertive"],
+                "sentence": "You need to be more ___ to get what you want."
+            },
+            {
+                "meaning": "냉소적인 / 비꼬는",
+                "answers": ["Cynical"],
+                "sentence": "Don't be so ___ about everything."
+            },
+            {
+                "meaning": "변덕스러운",
+                "answers": ["Capricious"],
+                "sentence": "The weather here is as ___ as a child."
+            },
+            {
+                "meaning": "수완이 좋은 / 영리한",
+                "answers": ["Resourceful"],
+                "sentence": "He is a ___ leader who finds a way."
+            },
+            {
+                "meaning": "재치 있는 / 눈치 있는",
+                "answers": ["Tactful"],
+                "sentence": "That was a very ___ way of putting it."
+            },
+            {
+                "meaning": "공감 능력이 뛰어난",
+                "answers": ["Empathetic"],
+                "sentence": "An ___ listener makes a great friend."
+            },
+            {
+                "meaning": "회복탄력성이 좋은 / 오뚝이 같은",
+                "answers": ["Resilient"],
+                "sentence": "She is ___ enough to overcome any failure."
+            },
+            {
+                "meaning": "다재다능한",
+                "answers": ["Versatile"],
+                "sentence": "He is a ___ actor who can play any role."
+            },
+            {
+                "meaning": "통찰력 있는 / 눈치 빠른",
+                "answers": ["Perceptive"],
+                "sentence": "It was very ___ of you to notice that."
+            },
+            {
+                "meaning": "거리를 두는 / 냉담한",
+                "answers": ["Standoffish"],
+                "sentence": "He seems a bit ___ until you know him."
+            },
+            {
+                "meaning": "별난 / 괴짜 같은",
+                "answers": ["Eccentric"],
+                "sentence": "My neighbor is an ___ old man."
+            },
+            {
+                "meaning": "신중한",
+                "answers": ["Prudent"],
+                "sentence": "It's a ___ decision to save some money."
+            },
+            {
+                "meaning": "집요한 / 끈기 있는",
+                "answers": ["Tenacious"],
+                "sentence": "His ___ effort finally paid off."
+            },
+            {
+                "meaning": "태연한 / 감정을 잘 드러내지 않는",
+                "answers": ["Stoic"],
+                "sentence": "He remained ___ even in the face of danger."
+            },
+            {
+                "meaning": "상냥한 / 붙임성 있는",
+                "answers": ["Amiable"],
+                "sentence": "She has an ___ personality that everyone likes."
+            },
+            {
+                "meaning": "위트 있는 / 기지 넘치는",
+                "answers": ["Witty"],
+                "sentence": "He is famous for his ___ remarks."
+            },
+            {
+                "meaning": "위선적인",
+                "answers": ["Hypocritical"],
+                "sentence": "It’s ___ to judge others for what you do."
+            },
+            {
+                "meaning": "방어적인",
+                "answers": ["Defensive"],
+                "sentence": "Stop being so ___; it's just a suggestion."
+            },
+            {
+                "meaning": "방심하지 않는 / 기민한",
+                "answers": ["Vigilant"],
+                "sentence": "We must remain ___ against any threats."
+            },
+            {
+                "meaning": "우유부단한",
+                "answers": ["Indecisive"],
+                "sentence": "I'm too ___ to pick a restaurant."
+            },
+            {
+                "meaning": "거만한 / 젠체하는",
+                "answers": ["Pretentious"],
+                "sentence": "I found the movie a bit too ___."
+            },
+            {
+                "meaning": "자기도취적인",
+                "answers": ["Narcissistic"],
+                "sentence": "He is too ___ to care about others."
+            },
+            {
+                "meaning": "붙임성 없는 / 무뚝뚝한",
+                "answers": ["Aloof"],
+                "sentence": "She stayed ___ from the rest of the group."
+            }
+        ]
+    },
+
+    {
+        "title": "맛의 표현😋",
+        "date": "2026-03-16",
+        "questions": [
+            {
+                "meaning": "고소한",
+                "answers": ["Nutty"],
+                "sentence": "It has a deep, ___ flavor."
+            },
+            {
+                "meaning": "담백한",
+                "answers": ["Clean", "light"],
+                "sentence": "I prefer a ___ taste."
+            },
+            {
+                "meaning": "감칠맛 나는",
+                "answers": ["Savory"],
+                "sentence": "The broth is full of ___."
+            },
+            {
+                "meaning": "느끼한",
+                "answers": ["Greasy", "Oily"],
+                "sentence": "This pizza is a bit too ___."
+            },
+            {
+                "meaning": "아삭한(견과류,채소,시리얼 등)",
+                "answers": ["Crunchy"],
+                "sentence": "The lettuce is very ___ and fresh."
+            },
+            {
+                "meaning": "바삭한(크래커,감자칩,튀김류 등)",
+                "answers": ["Crispy"],
+                "sentence": "The fried chicken has a perfectly ___ skin."
+            },
+            {
+                "meaning": "쫄깃쫄깃한",
+                "answers": ["Chewy"],
+                "sentence": "I like the ___ texture of these noodles."
+            },
+            {
+                "meaning": "부드러운 (고기 등)",
+                "answers": ["Tender"],
+                "sentence": "The steak is incredibly ___."
+            },
+            {
+                "meaning": "싱거운",
+                "answers": ["Bland"],
+                "sentence": "It's a little ___; it needs more salt."
+            },
+            {
+                "meaning": "비린",
+                "answers": ["Fishy"],
+                "sentence": "Does this sushi taste ___ to you?"
+            },
+            {
+                "meaning": "새콤하고 톡 쏘는",
+                "answers": ["Tangy"],
+                "sentence": "The salad dressing is ___ and refreshing."
+            },
+            {
+                "meaning": "자극적인 향긋함",
+                "answers": ["zesty"],
+                "sentence": "This salsa has a ___ lime flavor."
+            },
+            {
+                "meaning": "육즙이 풍부한",
+                "answers": ["Juicy"],
+                "sentence": "This burger is so ___!"
+            },
+            {
+                "meaning": "눅눅한",
+                "answers": ["Soggy"],
+                "sentence": "My fries got all ___."
+            },
+            {
+                "meaning": "떫은",
+                "answers": ["Astringent", "Bitter"],
+                "sentence": "This green tea is a bit ___."
+            },
+            {
+                "meaning": "입맛을 돋우는",
+                "answers": ["Appetizing"],
+                "sentence": "The smell of the bread is very ___."
+            },
+            {
+                "meaning": "탄 맛이 나는",
+                "answers": ["Burnt"],
+                "sentence": "This toast tastes a little ___."
+            },
+            {
+                "meaning": "훈제 향이 나는",
+                "answers": ["Smoky"],
+                "sentence": "I love the ___ aroma of this BBQ."
+            },
+            {
+                "meaning": "걸쭉한",
+                "answers": ["Thick"],
+                "sentence": "The gravy is nice and ___."
+            },
+            {
+                "meaning": "풍미가 깊은",
+                "answers": ["Flavorful"],
+                "sentence": "This curry is extremely ___."
+            }
+        ]
+    },
+    
+    {
+        "title": "Today's Expression 복습💌",
+            "date": "2026-03-18",
+            "questions": [
+                {
+                    "meaning": "~에 잠깐 들르다",
+                    "answers": ["swing by"],
+                    "sentence": "Can you ___ the grocery store and pick up some milk?"
+                },
+                {
+                    "meaning": "갈팡질팡하다 / 연락 등이 오고 가다",
+                    "answers": ["back and forth"],
+                    "sentence": "I’ve been going ___ with them all day to fix this issue."
+                },
+                {
+                    "meaning": "상황을 봐가면서 하다 / 그때그때 정하다",
+                    "answers": ["play it by ear"],
+                    "sentence": "I’m not sure when I’ll be finished, so let’s ___ and talk later."
+                },
+                {
+                    "meaning": "더 나아가 / 차라리",
+                    "answers": ["better yet"],
+                    "sentence": "We could watch a movie — ___, let’s go out instead."
+                },
+                {
+                    "meaning": "지키다 / 꾸준히 하다",
+                    "answers": ["stick to"],
+                    "sentence": "I’m going to ___ working out."
+                },
+                {
+                    "meaning": "도움이 되다",
+                    "answers": ["come in handy", "came in handy"],
+                    "sentence": "Music really ___ for me."
+                },
+                {
+                    "meaning": "결국 / 따지고 보면 / 마지막엔",
+                    "answers": ["At the end of the day"],
+                    "sentence": "___, being happy is what matters."
+                },
+                {
+                    "meaning": "자주 찾는(것) / 믿고 쓰는(것)",
+                    "answers": ["go-to"],
+                    "sentence": "That’s my ___ way to relax after work."
+                },
+                {
+                    "meaning": "바로 친해지다 / 잘 통하다",
+                    "answers": ["hit it off"],
+                    "sentence": "It’s amazing how quickly they ___."
+                },
+                {
+                    "meaning": "충동적으로",
+                    "answers": ["on a whim"],
+                    "sentence": "I just did it ___."
+                },
+                {
+                    "meaning": "훨씬",
+                    "answers": ["way"],
+                    "sentence": "It was ___ better than I expected."
+                },
+                {
+                    "meaning": "함께하다 / 유지하다",
+                    "answers": ["stick with"],
+                    "sentence": "Yeah, I’m going to ___ it."
+                },
+                {
+                    "meaning": "긴장한 상태의 / 신경이 곤두선",
+                    "answers": ["on edge"],
+                    "sentence": "Yeah, I’ve been ___ all day because of the meeting."
+                },
+                {
+                    "meaning": "우연히 ~을 마주치다",
+                    "answers": ["run into", "ran into"],
+                    "sentence": "I ___ my old boss today."
+                },
+                {
+                    "meaning": "좋은 판단 / 결정",
+                    "answers": ["good call"],
+                    "sentence": "Yeah, it was a ___ to leave before the traffic got bad."
+                },
+                {
+                    "meaning": "거절하다",
+                    "answers": ["turn down", "turned down"],
+                    "sentence": "No, I ___ the offer."
+                },
+                {
+                    "meaning": "~하는 걸 정말 못 참겠다 / 너무 싫다",
+                    "answers": ["can't stand"],
+                    "sentence": "No, I ___ getting up early."
+                },
+                {
+                    "meaning": "(의견·이해가) 서로 같다",
+                    "answers": ["on the same page"],
+                    "sentence": "Yeah, I’m ___."
+                },
+                {
+                    "meaning": "~할 마음이 있다",
+                    "answers": ["up for"],
+                    "sentence": "Sure, I’m totally ___ it!"
+                }
+            ]
+    },
+
+    {
+        "title": "Everyday Kitchen Expressions 🍳",
+            "date": "2026-03-23",
+            "questions": [
+                {
+                    "meaning": "후딱 만들어 내다 / 뚝딱 요리하다",
+                    "answers": ["whip up"],
+                    "sentence": "I can ___ a quick dinner if you're hungry."
+                },
+                {
+                    "meaning": "끓어 넘치다",
+                    "answers": ["boil over", "boiling over"],
+                    "sentence": "Turn down the heat! The soup is ___."
+                },
+                {
+                    "meaning": "해동하다",
+                    "answers": ["thaw out", "thawed out"],
+                    "sentence": "I ___ the chicken in the microwave."
+                },
+                {
+                    "meaning": "(식탁이나 조리대를 행주로) 닦아내다",
+                    "answers": ["wipe down", "wiped down"],
+                    "sentence": "I ___ the kitchen counters after cooking."
+                },
+                {
+                    "meaning": "(눌어붙은 것을) 긁어내다",
+                    "answers": ["scrape off", "scraping off"],
+                    "sentence": "You'll need a good sponge for ___ the burnt food."
+                },
+                {
+                    "meaning": "속을 파내다 / 떠내다",
+                    "answers": ["scoop out"],
+                    "sentence": "Use a spoon to ___ the avocado."
+                },
+                {
+                    "meaning": "약한 불로 끓이다 / 졸이다",
+                    "answers": ["simmer", "simmering"],
+                    "sentence": "Leave the sauce ___ on the stove for ten minutes."
+                },
+                {
+                    "meaning": "잘게 다지다",
+                    "answers": ["mince", "minced"],
+                    "sentence": "I need two cloves of ___ garlic for this recipe."
+                },
+                {
+                    "meaning": "거품기로 젓다",
+                    "answers": ["whisk", "whisking"],
+                    "sentence": "Keep ___ the eggs until they are fluffy."
+                },
+                {
+                    "meaning": "아주 약간의 / 한 꼬집의",
+                    "answers": ["a dash of"],
+                    "sentence": "Just add ___ salt to the soup."
+                },
+                {
+                    "meaning": "(음식이 수분을 먹어) 눅눅한",
+                    "answers": ["soggy"],
+                    "sentence": "If you leave the cereal in milk too long, it gets ___."
+                },
+                {
+                    "meaning": "(빵 등이) 오래되어 딱딱해진 / 신선하지 않은",
+                    "answers": ["stale"],
+                    "sentence": "We can't eat this bread anymore; it's gone ___."
+                },
+                {
+                    "meaning": "미지근한",
+                    "answers": ["lukewarm"],
+                    "sentence": "I hate drinking ___ coffee in the morning."
+                },
+                {
+                    "meaning": "(물건이 많아) 어수선한",
+                    "answers": ["cluttered"],
+                    "sentence": "I can't cook when the kitchen counter is ___."
+                },
+                {
+                    "meaning": "먹고 남은 음식",
+                    "answers": ["leftovers"],
+                    "sentence": "We have some ___ from last night's dinner."
+                },
+                {
+                    "meaning": "(음식이) 상하다",
+                    "answers": ["go bad", "went bad"],
+                    "sentence": "I think the milk ___ because it smells sour."
+                },
+                {
+                    "meaning": "지글지글 소리를 내다",
+                    "answers": ["sizzle", "sizzling"],
+                    "sentence": "I love the sound of bacon ___ in the pan."
+                },
+                {
+                    "meaning": "깍둑썰기하다",
+                    "answers": ["dice", "diced"],
+                    "sentence": "She ___ the carrots and threw them into the pot."
+                },
+                {
+                    "meaning": "(재료 등이) 다 떨어지다",
+                    "answers": ["run out of", "ran out of"],
+                    "sentence": "We ___ cooking oil, so I need to go to the store."
+                }
+            ]
+    },
+
+    {
+        "title": "Grocery Store Expressions 🛒",
+            "date": "2026-03-25",
+            "questions": [
+                {
+                    "meaning": "넉넉히 사두다 / 비축하다",
+                    "answers": ["stock up", "stocking up"],
+                    "sentence": "They are ___ on bottled water for the storm."
+                },
+                {
+                    "meaning": "(계산대에서) 상품을 계산하다",
+                    "answers": ["ring up", "ringing up"],
+                    "sentence": "The cashier is ___ my items right now."
+                },
+                {
+                    "meaning": "가격을 인하하다 / 할인하다",
+                    "answers": ["mark down", "marked down"],
+                    "sentence": "These bakery items are ___ by 50%."
+                },
+                {
+                    "meaning": "농산물 (과일, 채소 등)",
+                    "answers": ["produce"],
+                    "sentence": "You can find fresh apples in the ___ section."
+                },
+                {
+                    "meaning": "품절된 / 재고가 없는",
+                    "answers": ["out of stock"],
+                    "sentence": "I'm sorry, that brand of cereal is currently ___."
+                },
+                {
+                    "meaning": "대량으로 / 벌크로",
+                    "answers": ["in bulk"],
+                    "sentence": "Buying toilet paper ___ is usually cheaper."
+                },
+                {
+                    "meaning": "봉투에 담다",
+                    "answers": ["bag", "bagging"],
+                    "sentence": "Would you like help ___ your groceries?"
+                },
+                {
+                    "meaning": "상하기 쉬운 / 부패하기 쉬운",
+                    "answers": ["perishable"],
+                    "sentence": "Keep ___ items like milk and meat in the fridge."
+                },
+                {
+                    "meaning": "조미료 / 양념류 (케첩, 마요네즈 등)",
+                    "answers": ["condiments"],
+                    "sentence": "Ketchup and mustard are in the ___ aisle."
+                },
+                {
+                    "meaning": "통로",
+                    "answers": ["aisle"],
+                    "sentence": "The pasta is in ___ 4."
+                },
+                {
+                    "meaning": "(식료품 등) 기본 필수품 / 자주 먹는 주요 식품",
+                    "answers": ["staple", "staples"],
+                    "sentence": "Milk, eggs, and bread are pantry ___."
+                },
+                {
+                    "meaning": "(가볍게 물건을) 사 오다 / 챙겨 오다",
+                    "answers": ["pick up", "picked up"],
+                    "sentence": "I ___ some snacks on my way home."
+                },
+                {
+                    "meaning": "조제 식품 코너 (햄, 치즈, 샐러드 등 파는 곳)",
+                    "answers": ["deli"],
+                    "sentence": "Can you get some sliced turkey from the ___ counter?"
+                },
+                {
+                    "meaning": "충동구매",
+                    "answers": ["impulse buy"],
+                    "sentence": "That chocolate bar at the register was an ___."
+                },
+                {
+                    "meaning": "비싼 / 가격이 꽤 나가는",
+                    "answers": ["pricey"],
+                    "sentence": "Organic vegetables can be a bit ___ here."
+                },
+                {
+                    "meaning": "계산대 통로",
+                    "answers": ["checkout lane"],
+                    "sentence": "Let's move to a faster ___."
+                },
+                {
+                    "meaning": "(물건을 카트나 차에) 잔뜩 싣다",
+                    "answers": ["load up", "loaded up"],
+                    "sentence": "We ___ the cart with lots of fresh fruit."
+                },
+                {
+                    "meaning": "볼일을 보다 / 장을 보러 가다",
+                    "answers": ["run errands", "running errands"],
+                    "sentence": "I'll be out ___ all morning, including a trip to the grocery store."
+                },
+                {
+                    "meaning": "(가격을 계산할 때) 바코드를 찍다",
+                    "answers": ["scan", "scanned"],
+                    "sentence": "The cashier ___ all my items very quickly."
+                }
+            ]
+    },
+
+    {
+        "title": "Native Emotional Adjectives 😌",
+            "date": "2026-03-30",
+            "questions": [
+                {
+                    "meaning": "(감정, 업무 등에) 압도된 / 벅찬 / 어쩔 줄 모르는",
+                    "answers": ["overwhelmed"],
+                    "sentence": "I was completely ___ by the amount of work I had to do."
+                },
+                {
+                    "meaning": "엄청난 충격을 받은 / 망연자실한",
+                    "answers": ["devastated"],
+                    "sentence": "She was ___ when she heard the bad news."
+                },
+                {
+                    "meaning": "몹시 당황한 / 수치스러운 / 쥐구멍에라도 들어가고 싶은",
+                    "answers": ["mortified"],
+                    "sentence": "I was ___ when my phone rang loudly during the silent movie."
+                },
+                {
+                    "meaning": "극도로 겁에 질린 / 사색이 된",
+                    "answers": ["petrified"],
+                    "sentence": "He is ___ of spiders and won't even look at one."
+                },
+                {
+                    "meaning": "아주 신난 / 짜릿한",
+                    "answers": ["thrilled"],
+                    "sentence": "We are ___ to announce our engagement!"
+                },
+                {
+                    "meaning": "(칭찬을 받아) 기분 좋은 / 우쭐해진 / 과분한",
+                    "answers": ["flattered"],
+                    "sentence": "I was highly ___ that they asked me to lead the project."
+                },
+                {
+                    "meaning": "아연실색한 / 끔찍해 하는 / 간담이 서늘한",
+                    "answers": ["appalled"],
+                    "sentence": "They were ___ by the poor conditions of the hotel room."
+                },
+                {
+                    "meaning": "완전히 당황한 / 도저히 이해할 수 없는",
+                    "answers": ["baffled"],
+                    "sentence": "The police were ___ by the strange disappearance of the painting."
+                },
+                {
+                    "meaning": "미칠 듯이 기쁜 / 황홀한",
+                    "answers": ["ecstatic"],
+                    "sentence": "He was ___ when he finally passed the bar exam."
+                },
+                {
+                    "meaning": "상심한 / 실망한 (캐주얼한 표현)",
+                    "answers": ["bummed out"],
+                    "sentence": "I was really ___ when they canceled the concert."
+                },
+                {
+                    "meaning": "안도하는 / 마음이 놓이는",
+                    "answers": ["relieved"],
+                    "sentence": "I felt so ___ after finishing that difficult test."
+                },
+                {
+                    "meaning": "겁먹은 / 위축된",
+                    "answers": ["intimidated"],
+                    "sentence": "Don't be ___ by the interview panel; just do your best."
+                },
+                {
+                    "meaning": "무관심한 / 심드렁한",
+                    "answers": ["indifferent"],
+                    "sentence": "He seemed completely ___ to the team's success."
+                },
+                {
+                    "meaning": "몹시 화가 난 / 분노한",
+                    "answers": ["furious"],
+                    "sentence": "My parents were ___ when I came home past curfew."
+                },
+                {
+                    "meaning": "잔뜩 흥분한 / 격앙된",
+                    "answers": ["work up", "worked up"],
+                    "sentence": "He got all ___ over nothing."
+                },
+                {
+                    "meaning": "불안해하는 / 동요된",
+                    "answers": ["agitated"],
+                    "sentence": "The patient became increasingly ___ as waiting time got longer."
+                },
+                {
+                    "meaning": "향수어린 / 옛날을 그리워하는",
+                    "answers": ["nostalgic"],
+                    "sentence": "Hearing that old 90s pop song makes me feel so ___."
+                },
+                {
+                    "meaning": "비참한 / 너무나도 우울하고 불행한",
+                    "answers": ["miserable"],
+                    "sentence": "Having a bad cold during the holiday made me feel ___."
+                },
+                {
+                    "meaning": "회의적인 / 의심 많은",
+                    "answers": ["skeptical"],
+                    "sentence": "I'm a bit ___ about his promises to fix everything."
+                },
+                {
+                    "meaning": "녹초가 된 / 완전히 지친",
+                    "answers": ["wipe out", "wiped out"],
+                    "sentence": "After the long hike, I was completely ___."
+                }
+            ]
+    },
+
+    {
+        "title": "Catching Up Expressions 🗣️",
+            "date": "2026-04-01",
+            "questions": [
+                {
+                    "meaning": "밀린 이야기를 하다 / 회포를 풀다",
+                    "answers": ["catch up"],
+                    "sentence": "It’s been too long! We need to grab coffee and ___ sometime soon."
+                },
+                {
+                    "meaning": "몹시 바쁜 / 꼼짝 못 하는 (스케줄이 꽉 찬)",
+                    "answers": ["tied up"],
+                    "sentence": "I’m sorry I missed your call, I was ___ in a meeting all morning."
+                },
+                {
+                    "meaning": "눈코 뜰 새 없이 바쁜 (일이나 과제에 파묻힌)",
+                    "answers": ["swamped"],
+                    "sentence": "I can't hang out tonight; I am totally ___ with work."
+                },
+                {
+                    "meaning": "정신없이 돌아가는 / 몹시 바쁜",
+                    "answers": ["hectic"],
+                    "sentence": "My life has been pretty ___ since we moved to the new house."
+                },
+                {
+                    "meaning": "~을 하고 있는 (주로 안부를 물을 때)",
+                    "answers": ["up to"],
+                    "sentence": "What have you been ___ lately?"
+                },
+                {
+                    "meaning": "연락을 취하다 / 진척 상황을 간단히 나누다",
+                    "answers": ["touch base"],
+                    "sentence": "Let's ___ next week to see how the project is going."
+                },
+                {
+                    "meaning": "상황(진행 상태)을 계속 알려주다",
+                    "answers": ["keep someone in the loop", "keep me in the loop"],
+                    "sentence": "Please ___ regarding any updates on the schedule."
+                },
+                {
+                    "meaning": "눈에 띄지 않게 지내다 / 조용히 쉬다",
+                    "answers": ["lay low", "laying low"],
+                    "sentence": "I'm just ___ this weekend and resting at home."
+                },
+                {
+                    "meaning": "매너리즘에 빠진 / 지루한 일상에 갇힌",
+                    "answers": ["in a rut"],
+                    "sentence": "I feel like I'm stuck ___ doing the exact same things every day."
+                },
+                {
+                    "meaning": "쉴 새 없이 바쁜 / 계속 돌아다니는",
+                    "answers": ["on the go"],
+                    "sentence": "Between working and studying, she is always ___."
+                },
+                {
+                    "meaning": "~의 요령을 터득하다 / 감을 잡다",
+                    "answers": ["get the hang of", "getting the hang of"],
+                    "sentence": "It took a while, but I'm finally ___ my new job."
+                },
+                {
+                    "meaning": "(새로운 환경에) 적응하다 / 자리 잡다",
+                    "answers": ["settle in", "settling in"],
+                    "sentence": "How are you ___ to your new apartment?"
+                },
+                {
+                    "meaning": "(해야 할) 일이 산더미같이 많은",
+                    "answers": ["a lot on one's plate", "a lot on my plate"],
+                    "sentence": "I'd love to help, but I have ___ right now."
+                },
+                {
+                    "meaning": "무리하지 않고 쉬다 / 여유를 가지다",
+                    "answers": ["take it easy", "taking it easy"],
+                    "sentence": "I've been just ___ since I caught a cold last week."
+                },
+                {
+                    "meaning": "(일상적인 리듬이나 페이스를) 되찾다 / 익숙해지다",
+                    "answers": ["get back into the swing of things", "getting back into the swing of things"],
+                    "sentence": "After the long vacation, it's hard ___ at work."
+                },
+                {
+                    "meaning": "(계획이나 일정이) 아직 미정인 / 공중에 붕 뜬",
+                    "answers": ["up in the air"],
+                    "sentence": "Our travel plans are still ___ because of my schedule."
+                },
+                {
+                    "meaning": "수지타산을 맞추다 / 겨우 입에 풀칠하며 살다",
+                    "answers": ["make ends meet", "making ends meet"],
+                    "sentence": "With the inflation, many families are having trouble ___."
+                },
+                {
+                    "meaning": "(우선순위에서 밀려) 보류 상태인 / 뒷전인",
+                    "answers": ["on the back burner"],
+                    "sentence": "I had to put my hobbies ___ while preparing for the exam."
+                },
+                {
+                    "meaning": "새 출발을 하다 / 마음을 고쳐먹다",
+                    "answers": ["turn over a new leaf", "turned over a new leaf"],
+                    "sentence": "He promised he had ___ and started waking up early."
+                },
+                {
+                    "meaning": "일이 어떻게 진행되는지 지켜보다 / 상황을 보다",
+                    "answers": ["see how things go"],
+                    "sentence": "I don't want to make a decision yet; let's just ___ first."
+                }
+            ]
+    },
+
+    {
+        "title": "Native Emotional Adjectives Ver.2 🎭",
+            "date": "2026-04-06",
+            "questions": [
+                {
+                    "meaning": "진이 빠진 / 기진맥진한",
+                    "answers": ["drained"],
+                    "sentence": "After dealing with customer complaints all day, I feel completely ___."
+                },
+                {
+                    "meaning": "짜증이 난 / 기분이 언짢은 (보통 피곤하거나 배고플 때)",
+                    "answers": ["cranky"],
+                    "sentence": "He gets really ___ if he doesn't have his morning coffee."
+                },
+                {
+                    "meaning": "완전 신난 / 기대감에 부푼 (캐주얼)",
+                    "answers": ["pumped"],
+                    "sentence": "I am so ___ for the concert this weekend!"
+                },
+                {
+                    "meaning": "엄청 신난 / 들뜬 (캐주얼)",
+                    "answers": ["stoked"],
+                    "sentence": "She was ___ to find out she got the job."
+                },
+                {
+                    "meaning": "참담한 / 완전히 멘붕이 온",
+                    "answers": ["crushed"],
+                    "sentence": "He was absolutely ___ when his team lost the finals."
+                },
+                {
+                    "meaning": "자신감이 없는 / 남의 시선을 신경 쓰는 / 불안정한",
+                    "answers": ["insecure"],
+                    "sentence": "Making mistakes when speaking English makes me feel ___."
+                },
+                {
+                    "meaning": "예민한 / 걸핏하면 화내는",
+                    "answers": ["touchy"],
+                    "sentence": "Don't bring up his ex-girlfriend; he's very ___ about it."
+                },
+                {
+                    "meaning": "방어적인 / 발끈하는",
+                    "answers": ["defensive"],
+                    "sentence": "Whenever I give her feedback, she gets so ___."
+                },
+                {
+                    "meaning": "마음이 편치 않은 / 불안한 / 찜찜한",
+                    "answers": ["uneasy"],
+                    "sentence": "Walking through the dark alley made me feel a bit ___."
+                },
+                {
+                    "meaning": "분해 하는 / 억울해 하는 / 앙심을 품은",
+                    "answers": ["resentful"],
+                    "sentence": "She felt ___ that her coworker got the promotion instead of her."
+                },
+                {
+                    "meaning": "극도로 지친 / 번아웃이 온",
+                    "answers": ["burn out", "burnt out"],
+                    "sentence": "I've been working 60 hours a week and I'm completely ___."
+                },
+                {
+                    "meaning": "기겁한 / 혼비백산한 / 패닉에 빠진",
+                    "answers": ["freak out", "freaked out"],
+                    "sentence": "She was totally ___ when she saw the huge bug on the wall."
+                },
+                {
+                    "meaning": "질척거리는 / 지나치게 의존적인 / 매달리는",
+                    "answers": ["clingy"],
+                    "sentence": "Her new boyfriend is a bit too ___, texting her every five minutes."
+                },
+                {
+                    "meaning": "공감하는 / 안타까워하는",
+                    "answers": ["sympathetic"],
+                    "sentence": "My boss was very ___ when I told him I was sick."
+                },
+                {
+                    "meaning": "황당한 / 어리둥절한 / 당혹스러운",
+                    "answers": ["perplexed"],
+                    "sentence": "The dog looked ___ when the magic trick made the ball disappear."
+                },
+                {
+                    "meaning": "짜증이 난 / 거슬리는",
+                    "answers": ["irritated"],
+                    "sentence": "I get ___ when people chew loudly."
+                },
+                {
+                    "meaning": "(갑자기) 깜짝 놀란",
+                    "answers": ["startled"],
+                    "sentence": "I was ___ by the loud thunder."
+                },
+                {
+                    "meaning": "무기력한 / 활력이 없는",
+                    "answers": ["lethargic"],
+                    "sentence": "The hot weather is making me feel so ___ today."
+                },
+                {
+                    "meaning": "정신이 없는 / 멍한 / 몽롱한",
+                    "answers": ["out of it"],
+                    "sentence": "I didn't sleep well last night, so I'm a little ___ today."
+                },
+                {
+                    "meaning": "긴장한 / 깐깐한 / 신경질적인",
+                    "answers": ["uptight"],
+                    "sentence": "He needs to relax and stop being so ___ about every little detail."
+                }
+            ]
+    },
+
+    {
+        "title": "Customer Service Expressions 🎧",
+            "date": "2026-04-08",
+            "questions": [
+                {
+                    "meaning": "알아보다 / 조사하다 / 확인해 보다",
+                    "answers": ["look into", "looking into"],
+                    "sentence": "I am ___ the issue right now and will update you shortly."
+                },
+                {
+                    "meaning": "잠시 참아주다 / (처리될 때까지) 기다려주다",
+                    "answers": ["bear with"],
+                    "sentence": "Please ___ me for a moment while I pull up your account details."
+                },
+                {
+                    "meaning": "(전화를 끊지 않고) 대기 상태로 두다",
+                    "answers": ["put on hold", "put you on hold"],
+                    "sentence": "May I ___ for a brief moment while I check with my supervisor?"
+                },
+                {
+                    "meaning": "(절차나 방법을) 차근차근 설명해 주다",
+                    "answers": ["walk through", "walk you through"],
+                    "sentence": "I can ___ the steps to reset your password over the phone."
+                },
+                {
+                    "meaning": "알아보고 다시 연락주다",
+                    "answers": ["get back to"],
+                    "sentence": "Let me check with the shipping team and ___ you by the end of the day."
+                },
+                {
+                    "meaning": "(수수료, 요금 등을) 면제해 주다",
+                    "answers": ["waive", "waived"],
+                    "sentence": "As a one-time courtesy, I have ___ the late fee on your account."
+                },
+                {
+                    "meaning": "(문제를) 상급자나 상위 부서로 이관하다 / 보고하다",
+                    "answers": ["escalate"],
+                    "sentence": "I will need to ___ this ticket to our technical support team."
+                },
+                {
+                    "meaning": "신속히 처리하다 / 진척시키다",
+                    "answers": ["expedite", "expedited"],
+                    "sentence": "I have ___ your shipping so the package will arrive by tomorrow."
+                },
+                {
+                    "meaning": "보상하다 / 만회하다",
+                    "answers": ["make it up to"],
+                    "sentence": "We are so sorry for the delay, and we’d like to ___ you with a $20 voucher."
+                },
+                {
+                    "meaning": "(얽힌 문제를) 해결하다 / 처리하다",
+                    "answers": ["sort out", "sorted out"],
+                    "sentence": "Don't worry, we will get this billing error ___ right away."
+                },
+                {
+                    "meaning": "무료로 제공되는 / 서비스의",
+                    "answers": ["complimentary"],
+                    "sentence": "We would like to offer you a ___ breakfast for the inconvenience."
+                },
+                {
+                    "meaning": "(잘못된 것을) 바로잡다 / 시정하다",
+                    "answers": ["rectify"],
+                    "sentence": "We are doing everything we can to ___ the situation."
+                },
+                {
+                    "meaning": "후속 조치를 취하다 / 추가로 연락하다",
+                    "answers": ["follow up"],
+                    "sentence": "I will ___ with an email containing your tracking number."
+                },
+                {
+                    "meaning": "연락을 취하다 / 문의하다",
+                    "answers": ["reach out"],
+                    "sentence": "Please feel free to ___ if you have any further questions."
+                },
+                {
+                    "meaning": "결함이 있는 / 불량인",
+                    "answers": ["defective"],
+                    "sentence": "If the item is ___, we will gladly send you a replacement."
+                },
+                {
+                    "meaning": "처리하다 / 진행하다",
+                    "answers": ["process", "processing"],
+                    "sentence": "We are currently ___ your refund, which may take up to 3 business days."
+                },
+                {
+                    "meaning": "(요구 등에) 부응하다 / 편의를 도모하다",
+                    "answers": ["accommodate"],
+                    "sentence": "We will do our best to ___ your request for a late checkout."
+                },
+                {
+                    "meaning": "내 권한 밖인 / 어찌할 수 없는",
+                    "answers": ["out of one's hands", "out of my hands"],
+                    "sentence": "I apologize, but the shipping delay is completely ___ at this point."
+                },
+                {
+                    "meaning": "보상하다 / 배상하다",
+                    "answers": ["compensate"],
+                    "sentence": "We would like to ___ you fully for the damaged item."
+                },
+                {
+                    "meaning": "번거롭지 않은 / 번거로움 없는",
+                    "answers": ["hassle-free", "hassle free"],
+                    "sentence": "We offer a ___ return policy within 30 days of purchase."
+                }
+            ]
+    },
+
+    {
+        "title": "Gossiping & Backbiting Expressions 🤫",
+            "date": "2026-04-13",
+            "questions": [
+                {
+                    "meaning": "비밀이나 소문을 퍼뜨리다 / 폭로하다",
+                    "answers": ["spill the tea"],
+                    "sentence": "Come on, sit down and ___ about what happened at the party."
+                },
+                {
+                    "meaning": "남의 뒤에서 험담하다 / 뒷담화하다",
+                    "answers": ["talk behind someone's back", "talking behind my back"],
+                    "sentence": "I was so angry when I found out they were ___."
+                },
+                {
+                    "meaning": "뒤통수를 치다 / 배신하다",
+                    "answers": ["stab someone in the back", "stab in the back", "stabbed me in the back"],
+                    "sentence": "I trusted him completely, but he ___."
+                },
+                {
+                    "meaning": "앞뒤가 다른 / 표리부동한",
+                    "answers": ["two-faced", "two faced"],
+                    "sentence": "She is so ___; she acts nice to you but gossips about everyone."
+                },
+                {
+                    "meaning": "남에게 책임을 덮어씌우다 / 희생양으로 삼다",
+                    "answers": ["throw someone under the bus","throw under the bus", "threw me under the bus"],
+                    "sentence": "To save his own job, he completely ___."
+                },
+                {
+                    "meaning": "험담하다 / 안 좋게 말하다",
+                    "answers": ["badmouth", "badmouthing"],
+                    "sentence": "Stop ___ your boss; someone might hear you."
+                },
+                {
+                    "meaning": "뒤끝이 있다 / 꽁해 있다 / 원한을 품다",
+                    "answers": ["hold a grudge", "holding a grudge"],
+                    "sentence": "Are you really still ___ over what I said last year?"
+                },
+                {
+                    "meaning": "오지랖이 넓은 / 남의 일에 참견하기 좋아하는",
+                    "answers": ["nosy"],
+                    "sentence": "My ___ neighbor is always watching who comes into my house."
+                },
+                {
+                    "meaning": "심기를 건드리다 / 괜히 거슬리다",
+                    "answers": ["rub someone the wrong way", "rub the wrong way", "rubs me the wrong way"],
+                    "sentence": "I don't know exactly why, but his attitude really ___."
+                },
+                {
+                    "meaning": "분란을 일으키다 / 이간질하다",
+                    "answers": ["stir the pot", "stirring the pot"],
+                    "sentence": "She doesn't even care about the issue; she just loves ___."
+                },
+                {
+                    "meaning": "자뻑에 빠진 / 자기 잘난 맛에 사는",
+                    "answers": ["full of oneself", "full of himself"],
+                    "sentence": "He is so ___ that he only talks about his own achievements."
+                },
+                {
+                    "meaning": "아부하다 / 비위를 맞추다",
+                    "answers": ["suck up to", "sucking up to"],
+                    "sentence": "He is always ___ the manager to get a promotion."
+                },
+                {
+                    "meaning": "속이 좁은 / 쩨쩨한 / 사소한 일에 꽁한",
+                    "answers": ["petty"],
+                    "sentence": "Ignoring her text just because she was five minutes late is so ___."
+                },
+                {
+                    "meaning": "수상한 / 믿음이 안 가는 / 뒤가 구린",
+                    "answers": ["shady"],
+                    "sentence": "There is something really ___ about the way he handles team money."
+                },
+                {
+                    "meaning": "약속을 잘 어기는 / 변덕스러운 / 신뢰할 수 없는",
+                    "answers": ["flaky"],
+                    "sentence": "Don't rely on him to help you move; he's way too ___."
+                },
+                {
+                    "meaning": "모든 걸 다 아는 체하는 (사람) / 꼰대 같은",
+                    "answers": ["know-it-all", "know it all"],
+                    "sentence": "It's so hard to work with a ___ who never listens to others' opinions."
+                },
+                {
+                    "meaning": "자신이 한 일처럼 공을 가로채다",
+                    "answers": ["take the credit", "took all the credit"],
+                    "sentence": "We did all the hard work, but she went ahead and ___."
+                },
+                {
+                    "meaning": "이래라저래라 하는 / 지시하기 좋아하는",
+                    "answers": ["bossy"],
+                    "sentence": "My coworker is always so ___ even though she's not the manager."
+                },
+                {
+                    "meaning": "뒤통수치는 사람 / 배신자",
+                    "answers": ["backstabber"],
+                    "sentence": "I can't believe she told everyone my secret; she is such a ___."
+                },
+                {
+                    "meaning": "위선적인 / 내로남불의",
+                    "answers": ["hypocritical"],
+                    "sentence": "It's deeply ___ of him to criticize my spending habits when he buys luxury items every week."
+                }
+            ]
+    },
+
+    {
+        "title": "BBQ & Cookout Expressions 🥩",
+            "date": "2026-04-15",
+            "questions": [
+                {
+                    "meaning": "야외 고기 파티 / 바베큐 파티 (명사)",
+                    "answers": ["cookout"],
+                    "sentence": "We are having a ___ in the backyard this Sunday."
+                },
+                {
+                    "meaning": "불을 지피다 / (그릴 등을) 켜다",
+                    "answers": ["fire up"],
+                    "sentence": "Can you ___ the grill while I prepare the meat?"
+                },
+                {
+                    "meaning": "각자 마실 술(음료)을 가져오는 파티 (약어)",
+                    "answers": ["BYOB"],
+                    "sentence": "The invitation says ___, so let's grab some beers on the way."
+                },
+                {
+                    "meaning": "참석자들이 각자 음식을 조금씩 가져와서 나누어 먹는 파티",
+                    "answers": ["potluck"],
+                    "sentence": "It's a ___, so I'm planning to bring my famous potato salad."
+                },
+                {
+                    "meaning": "아이스박스",
+                    "answers": ["cooler"],
+                    "sentence": "Can you grab a cold drink for me from the ___?"
+                },
+                {
+                    "meaning": "(고기를) 양념에 재우다",
+                    "answers": ["marinate", "marinated"],
+                    "sentence": "I ___ the pork chops overnight to make them tender."
+                },
+                {
+                    "meaning": "숯",
+                    "answers": ["charcoal"],
+                    "sentence": "We are running low on ___; I need to buy another bag."
+                },
+                {
+                    "meaning": "고기 굽는 집게",
+                    "answers": ["tongs"],
+                    "sentence": "Please use the ___ to turn the sausages, not a fork."
+                },
+                {
+                    "meaning": "(고기 패티 등을) 휙 뒤집다",
+                    "answers": ["flip"],
+                    "sentence": "It is time to ___ the burgers so they don't burn."
+                },
+                {
+                    "meaning": "숯불에 겉이 그을린 / 바싹 구워진",
+                    "answers": ["charred"],
+                    "sentence": "I actually like my hot dogs slightly ___ on the outside."
+                },
+                {
+                    "meaning": "(햄버거, 핫도그용) 둥근 빵",
+                    "answers": ["bun", "buns"],
+                    "sentence": "Don't forget to toast the burger ___ on the grill."
+                },
+                {
+                    "meaning": "꼬치구이 / 꼬치에 꿰다",
+                    "answers": ["skewer", "skewers"],
+                    "sentence": "We prepared beef and vegetable ___ for the kids."
+                },
+                {
+                    "meaning": "(소스 등을) 잔뜩 바르다 / 뒤덮다",
+                    "answers": ["smother", "smothered"],
+                    "sentence": "These ribs are ___ in sweet and spicy BBQ sauce."
+                },
+                {
+                    "meaning": "(고기 구울 때) 버터나 육즙을 브러시로 끼얹다",
+                    "answers": ["baste", "basting"],
+                    "sentence": "He is ___ the chicken to keep it from drying out."
+                },
+                {
+                    "meaning": "불이 약해지다 / 잦아들다",
+                    "answers": ["die down", "dying down"],
+                    "sentence": "We can put the meat on once the flames start ___."
+                },
+                {
+                    "meaning": "돌아다니며 사람들과 어울리다",
+                    "answers": ["mingle", "mingling"],
+                    "sentence": "The host spent the whole afternoon ___ with the guests."
+                },
+                {
+                    "meaning": "먹거리 / 음식 (슬랭)",
+                    "answers": ["grub"],
+                    "sentence": "Thanks for inviting us; this is some seriously good ___."
+                },
+                {
+                    "meaning": "돼지처럼 무지하게 많이 먹다 / 폭식하다",
+                    "answers": ["pig out", "pigged out"],
+                    "sentence": "I completely ___ on chips and sausages today."
+                }
+            ]
+    },
+
+    {
+        "title": "Wedding & Marriage Expressions 💍",
+            "date": "2026-04-20",
+            "questions": [
+                {
+                    "meaning": "결혼하다 / 백년가약을 맺다",
+                    "answers": ["tie the knot", "tied the knot"],
+                    "sentence": "They finally ___ after dating for five years."
+                },
+                {
+                    "meaning": "(결혼 전의) 갑작스러운 불안감 / 망설임",
+                    "answers": ["cold feet"],
+                    "sentence": "He got ___ right before the wedding, but his friends calmed him down."
+                },
+                {
+                    "meaning": "프러포즈하다 / 청혼하다",
+                    "answers": ["pop the question", "popped the question"],
+                    "sentence": "He took her to Paris and ___ in front of the Eiffel Tower."
+                },
+                {
+                    "meaning": "신부 들러리 대표",
+                    "answers": ["maid of honor"],
+                    "sentence": "Her sister will be the ___ at the wedding."
+                },
+                {
+                    "meaning": "신랑 들러리 대표",
+                    "answers": ["best man"],
+                    "sentence": "The ___ gave a hilarious and touching speech."
+                },
+                {
+                    "meaning": "결혼 피로연",
+                    "answers": ["reception"],
+                    "sentence": "The ceremony was beautiful, but the ___ was a crazy party."
+                },
+                {
+                    "meaning": "혼인 서약",
+                    "answers": ["vow", "vows"],
+                    "sentence": "There wasn't a dry eye in the room when they read their ___."
+                },
+                {
+                    "meaning": "건배 제의를 하다 / 축사를 하다",
+                    "answers": ["propose a toast", "proposed a toast"],
+                    "sentence": "The father of the bride ___ to the happy couple."
+                },
+                {
+                    "meaning": "결혼하다 (속어 / 캐주얼)",
+                    "answers": ["get hitched"],
+                    "sentence": "We are flying to Las Vegas to ___ this weekend."
+                },
+                {
+                    "meaning": "눈맞아 도망쳐서 결혼하다 / 둘이서만 비밀리에 조촐히 결혼하다",
+                    "answers": ["elope", "eloped"],
+                    "sentence": "Instead of a big wedding, they just ___ to Hawaii."
+                },
+                {
+                    "meaning": "정착하다 / 가정을 꾸리다",
+                    "answers": ["settle down"],
+                    "sentence": "I think he is finally ready to ___ and start a family."
+                },
+                {
+                    "meaning": "천생연분 / 환상의 짝꿍",
+                    "answers": ["match made in heaven"],
+                    "sentence": "They are so perfect for each other; it's a ___."
+                },
+                {
+                    "meaning": "결혼 준비로 극도로 예민해진 신부",
+                    "answers": ["bridezilla"],
+                    "sentence": "She turned into a total ___ when the flowers were the wrong color."
+                },
+                {
+                    "meaning": "초대장 참석 여부를 회답하다",
+                    "answers": ["RSVP"],
+                    "sentence": "Please make sure you ___ by the 15th so we can finalize the food."
+                },
+                {
+                    "meaning": "결혼 선물 희망 목록",
+                    "answers": ["registry"],
+                    "sentence": "We bought them a coffee maker from their wedding ___."
+                },
+                {
+                    "meaning": "동반인 (초대장에 명시된 파트너)",
+                    "answers": ["plus one"],
+                    "sentence": "The invitation says I can bring a ___, so do you want to come?"
+                },
+                {
+                    "meaning": "눈물이 핑 돌다 / 울컥하다",
+                    "answers": ["tear up", "teared up"],
+                    "sentence": "I completely ___ when the bride walked down the aisle."
+                },
+                {
+                    "meaning": "(신부를) 신랑에게 인도하다",
+                    "answers": ["give away", "gave her away"],
+                    "sentence": "Her grandfather ___ at the altar."
+                },
+                {
+                    "meaning": "신혼의 달콤한 시기 / 깨 쏟아지는 시기",
+                    "answers": ["honeymoon phase"],
+                    "sentence": "They are still in the ___ and constantly holding hands."
+                },
+                {
+                    "meaning": "주례사 / 결혼식 주재자",
+                    "answers": ["officiant"],
+                    "sentence": "The ___ told a beautiful story about how the couple met."
+                }
+            ]
+    },
+
+    {
+        "title": "Housework & Chores Expressions 🧹",
+            "date": "2026-04-22",
+            "questions": [
+                {
+                    "meaning": "(손님 오기 전 등에) 가볍게 정리 정돈하다",
+                    "answers": ["straighten up", "straightening up"],
+                    "sentence": "I need to spend a few minutes ___ the living room before they arrive."
+                },
+                {
+                    "meaning": "불필요한 물건을 버리거나 치워 공간을 정리하다",
+                    "answers": ["declutter", "decluttering"],
+                    "sentence": "I spent the weekend ___ my closet and throwing away old clothes."
+                },
+                {
+                    "meaning": "(사용한 물건을) 제자리에 치우다",
+                    "answers": ["put away", "put away"],
+                    "sentence": "Please ___ your toys when you are done playing."
+                },
+                {
+                    "meaning": "세탁기를 한 번 돌리다 / 빨래 한 판 하다",
+                    "answers": ["do a load of laundry", "did a load of laundry"],
+                    "sentence": "I ___ this morning, but I still have more to wash."
+                },
+                {
+                    "meaning": "(방이나 옷을) 환기하다 / 바람을 통하게 하다",
+                    "answers": ["air out", "air out"],
+                    "sentence": "Open the windows to ___ the bedroom."
+                },
+                {
+                    "meaning": "(솔이나 수세미로) 빡빡 문질러 닦다",
+                    "answers": ["scrub", "scrubbing"],
+                    "sentence": "I hate ___ the bathroom tiles because it hurts my arms."
+                },
+                {
+                    "meaning": "(청소할 때 들어가는) 육체적 수고 / 빡빡 닦기 (명사)",
+                    "answers": ["elbow grease"],
+                    "sentence": "That stubborn stain on the floor is going to take some ___ to remove."
+                },
+                {
+                    "meaning": "티끌 하나 없이 아주 말끔한",
+                    "answers": ["spick and span"],
+                    "sentence": "After cleaning for three hours, the whole house was ___."
+                },
+                {
+                    "meaning": "(걸레, 수건 등의 물기를) 꽉 짜다",
+                    "answers": ["wring out", "wrung out"],
+                    "sentence": "Make sure you ___ the mop before cleaning the wood floor."
+                },
+                {
+                    "meaning": "식기세척기를 돌리다 (작동시키다)",
+                    "answers": ["run the dishwasher", "running the dishwasher"],
+                    "sentence": "We are out of clean plates, so I'll be ___ tonight."
+                },
+                {
+                    "meaning": "먼지를 털다 / 먼지를 닦아내다 (동사)",
+                    "answers": ["dust", "dusting"],
+                    "sentence": "She is ___ the bookshelves in the study room."
+                },
+                {
+                    "meaning": "구석구석 묵은 때를 벗기는 대청소를 하다",
+                    "answers": ["deep clean", "deep cleaning"],
+                    "sentence": "We hire a professional service for ___ the house once a year."
+                },
+                {
+                    "meaning": "(설거지거리나 빨랫감의) 찌든 때를 불리기 위해 물에 담가두다",
+                    "answers": ["soak", "soaking"],
+                    "sentence": "Leave the burnt pan ___ in warm water for an hour."
+                },
+                {
+                    "meaning": "얼룩이나 먼지 하나 없이 아주 깨끗한 (형용사)",
+                    "answers": ["spotless"],
+                    "sentence": "My mother's kitchen is always absolutely ___."
+                },
+                {
+                    "meaning": "뚫어뻥(plunger)으로 막힌 변기나 하수구를 뚫다",
+                    "answers": ["plunge", "plunging"],
+                    "sentence": "The toilet is clogged, so someone has to start ___ it."
+                },
+                {
+                    "meaning": "섬유유연제",
+                    "answers": ["fabric softener"],
+                    "sentence": "Don't forget to add ___ so the towels come out fluffy."
+                },
+                {
+                    "meaning": "(건조기나 옷 등에서 나오는) 먼지 뭉치 / 보풀",
+                    "answers": ["lint"],
+                    "sentence": "You need to clean the ___ filter in the dryer after every load."
+                },
+                {
+                    "meaning": "(빗자루로) 쓸어 담다",
+                    "answers": ["sweep up", "swept up"],
+                    "sentence": "He accidentally dropped a glass and quickly ___ the broken pieces."
+                },
+                {
+                    "meaning": "(어질러진 것을) 깔끔하게 치우다 / 정돈하다",
+                    "answers": ["tidy up", "tidying up"],
+                    "sentence": "I spent the whole morning ___ the house for the guests."
+                },
+                {
+                    "meaning": "(빨래를) 널어서 말리다",
+                    "answers": ["hang out to dry", "hanging out to dry"],
+                    "sentence": "The weather is so nice today, so I am ___ my clothes on the balcony."
+                }
+            ]
+    },
+
+    {
+        "title": "Laundromat Expressions 🧺",
+            "date": "2026-04-27",
+            "questions": [
+                {
+                    "meaning": "(기계를) 혼자 여러 대 차지하다 / 독차지하다",
+                    "answers": ["hog", "hogging"],
+                    "sentence": "Someone is ___ three dryers, and I can't dry my clothes."
+                },
+                {
+                    "meaning": "동전 교환기",
+                    "answers": ["change machine"],
+                    "sentence": "I only have a twenty-dollar bill, so I need to use the ___."
+                },
+                {
+                    "meaning": "(옷에서) 물이 빠지다 / 이염되다",
+                    "answers": ["bleed", "bled"],
+                    "sentence": "The red shirt ___ in the wash and turned all my white socks pink."
+                },
+                {
+                    "meaning": "(옷이) 줄어들다 / 수축하다",
+                    "answers": ["shrink", "shrank"],
+                    "sentence": "I accidentally dried my wool sweater on high heat, and it ___."
+                },
+                {
+                    "meaning": "탈수 코스",
+                    "answers": ["spin cycle"],
+                    "sentence": "The washing machine gets really loud when it enters the ___."
+                },
+                {
+                    "meaning": "대용량의 / 강력한 (세탁기 등)",
+                    "answers": ["heavy-duty", "heavy duty"],
+                    "sentence": "You should use the ___ washer for these thick blankets."
+                },
+                {
+                    "meaning": "보풀 거름망",
+                    "answers": ["lint trap"],
+                    "sentence": "Always remember to clean the ___ before starting the dryer."
+                },
+                {
+                    "meaning": "자리를 비우다 / (물건을) 방치하다",
+                    "answers": ["(leave) unattended", "unattended"],
+                    "sentence": "I shouldn't have left my laundry ___ while the machines are running."
+                },
+                {
+                    "meaning": "드럼 세탁기 (앞으로 세탁물을 넣는 방식)",
+                    "answers": ["front-loader", "front loader"],
+                    "sentence": "I prefer using a ___ because it is gentler on my clothes."
+                },
+                {
+                    "meaning": "(기계에 동전 등이) 걸리다 / 끼이다",
+                    "answers": ["jam", "jammed"],
+                    "sentence": "My coin got ___ in the slot, and the machine won't start."
+                },
+                {
+                    "meaning": "고장 난",
+                    "answers": ["out of order"],
+                    "sentence": "There's a sign on this washing machine that says it is ___."
+                },
+                {
+                    "meaning": "(색상이나 재질별로 세탁물을) 분류하다",
+                    "answers": ["sort out", "sorted out"],
+                    "sentence": "I ___ the whites from the darks before coming to the laundromat."
+                },
+                {
+                    "meaning": "(미국의) 25센트 동전 (코인 빨래방 필수품)",
+                    "answers": ["quarters"],
+                    "sentence": "You will need a lot of ___ to run the washers and dryers here."
+                },
+                {
+                    "meaning": "세탁망",
+                    "answers": ["mesh bag"],
+                    "sentence": "Put your delicate items in a ___ before washing them."
+                },
+                {
+                    "meaning": "(기계식) 회전 건조",
+                    "answers": ["tumble dry"],
+                    "sentence": "The care label on this shirt says to ___ on low heat."
+                },
+                {
+                    "meaning": "(세탁기 안에서 옷이) 엉키다",
+                    "answers": ["tangle up", "tangled up"],
+                    "sentence": "My shirts got all ___ with the bed sheets in the washer."
+                },
+                {
+                    "meaning": "세제 자판기",
+                    "answers": ["detergent dispenser"],
+                    "sentence": "I forgot my soap, so I had to buy a small box from the ___."
+                },
+                {
+                    "meaning": "망가지기 쉬운 섬세한 의류 (실크, 니트 등)",
+                    "answers": ["delicates"],
+                    "sentence": "I wash all my ___ in cold water on a gentle cycle."
+                },
+                {
+                    "meaning": "세탁물을 기계에 잔뜩 채워 넣다",
+                    "answers": ["load up", "loading up"],
+                    "sentence": "She is ___ the washing machine with her winter clothes."
+                },
+                {
+                    "meaning": "(다 된 빨래를) 꺼내다",
+                    "answers": ["take out", "taking out"],
+                    "sentence": "The guy is finally ___ his clothes, so you can use that dryer next."
+                }
+            ]
+    },
+
+    {
+        "title": "Bar & Drinking Expressions 🍻",
+            "date": "2026-04-29",
+            "questions": [
+                {
+                    "meaning": "계산서를 달아두다 / 카드를 맡겨놓고 계속 마시다",
+                    "answers": ["run a tab", "running a tab"],
+                    "sentence": "I'll be ___ for the night, so here is my credit card."
+                },
+                {
+                    "meaning": "(위스키 등을) 얼음과 함께 / 온 더 락으로",
+                    "answers": ["on the rocks"],
+                    "sentence": "I would like a double whiskey ___, please."
+                },
+                {
+                    "meaning": "(위스키 등을) 얼음이나 믹서 없이 원액으로",
+                    "answers": ["neat"],
+                    "sentence": "He always orders his bourbon ___, without any ice."
+                },
+                {
+                    "meaning": "생맥주로 / 탭에서 바로 뽑아주는",
+                    "answers": ["on tap"],
+                    "sentence": "What kind of local beers do you have ___ right now?"
+                },
+                {
+                    "meaning": "술집이나 클럽 가기 전에 미리 집에서 술을 마시다",
+                    "answers": ["pregame", "pregaming"],
+                    "sentence": "We are ___ at my apartment before heading out to the club."
+                },
+                {
+                    "meaning": "해장술 (숙취를 달래기 위해 마시는 술)",
+                    "answers": ["hair of the dog"],
+                    "sentence": "I need a little ___ to cure this terrible hangover."
+                },
+                {
+                    "meaning": "지정 생수꾼 / 술자리 후 운전을 맡기로 한 사람",
+                    "answers": ["designated driver"],
+                    "sentence": "I'll just stick to cola since I'm the ___ tonight."
+                },
+                {
+                    "meaning": "원샷하다 / 벌컥벌컥 들이켜다",
+                    "answers": ["chug", "chugged"],
+                    "sentence": "The crowd cheered as he ___ his entire beer."
+                },
+                {
+                    "meaning": "필름이 끊기다 / 기억을 잃다",
+                    "answers": ["black out", "blacked out"],
+                    "sentence": "I drank way too much tequila and completely ___ last night."
+                },
+                {
+                    "meaning": "알딸딸한 / 기분 좋게 취한",
+                    "answers": ["tipsy"],
+                    "sentence": "I'm feeling a little ___ after that strong cocktail."
+                },
+                {
+                    "meaning": "(술에 취해) 발음이 꼬이다 / 웅얼거리다",
+                    "answers": ["slur", "slurring"],
+                    "sentence": "He was ___ his words after the fourth shot of vodka."
+                },
+                {
+                    "meaning": "술을 한턱내다 / 한 바퀴 돌리다",
+                    "answers": ["buy a round", "bought a round"],
+                    "sentence": "Put your wallets away; I just ___ of shots for everyone."
+                },
+                {
+                    "meaning": "마지막 주문 시간 / 영업 종료 전 라스트 오더",
+                    "answers": ["last call"],
+                    "sentence": "The bartender just yelled ___ for alcohol."
+                },
+                {
+                    "meaning": "술이 약한 사람 / 알쓰",
+                    "answers": ["lightweight"],
+                    "sentence": "I get drunk after just one beer because I am such a ___."
+                },
+                {
+                    "meaning": "주량 / 술을 버티는 능력",
+                    "answers": ["tolerance"],
+                    "sentence": "He can drink a lot because he has a very high alcohol ___."
+                },
+                {
+                    "meaning": "인사불성이 된 / 만취한 / 꽐라가 된",
+                    "answers": ["hammered"],
+                    "sentence": "We went out to celebrate his birthday and got absolutely ___."
+                },
+                {
+                    "meaning": "숙취가 심한",
+                    "answers": ["hungover"],
+                    "sentence": "I am so ___ that I can't even get out of bed today."
+                },
+                {
+                    "meaning": "자기 전에 가볍게 딱 한 잔 마시는 술",
+                    "answers": ["nightcap"],
+                    "sentence": "Let's grab a quick ___ before we head home to sleep."
+                },
+                {
+                    "meaning": "(클럽이나 펍의) 입장료",
+                    "answers": ["cover charge"],
+                    "sentence": "We didn't go in because the ___ was twenty dollars."
+                },
+                {
+                    "meaning": "기도 / 술집이나 클럽 입구의 경호원",
+                    "answers": ["bouncer"],
+                    "sentence": "The ___ wouldn't let us inside because my friend didn't have his ID."
+                }
+            ]
+    },
+
+    {
+        "title": "Badminton Expressions 🏸",
+        "date": "2026-05-04",
+        "questions": [
+            {
+                "meaning": "셔틀콕 (shuttlecock보다 일상에서 훨씬 자주 쓰이는 단어)",
+                "answers": ["birdie", "birdies"],
+                "sentence": "We need to buy some new ___ before we play."
+            },
+            {
+                "meaning": "가볍게 난타를 치다 / 몸을 풀다",
+                "answers": ["hit around", "hitting around"],
+                "sentence": "Let's spend a few minutes ___ before we start the match."
+            },
+            {
+                "meaning": "완전 헛스윙하다",
+                "answers": ["whiff", "whiffed"],
+                "sentence": "I swung as hard as I could but completely ___ it."
+            },
+            {
+                "meaning": "라켓 테두리에 빗맞히다 / 삑사리 나다",
+                "answers": ["shank", "shanked"],
+                "sentence": "I hit the frame and completely ___ the shot."
+            },
+            {
+                "meaning": "결정타를 날리다 / 찬스볼을 끝내버리다",
+                "answers": ["put away"],
+                "sentence": "When the birdie popped up high, he easily ___ the shot."
+            },
+            {
+                "meaning": "(셔틀콕이) 코트 뒤쪽 아웃라인을 벗어나다",
+                "answers": ["go long", "went long"],
+                "sentence": "I hit it too hard, and the birdie ___."
+            },
+            {
+                "meaning": "(셔틀콕이) 네트를 스치다",
+                "answers": ["clip the net", "clipped the net"],
+                "sentence": "The shot ___ and tumbled over to the other side."
+            },
+            {
+                "meaning": "(라켓) 줄을 새로 매다",
+                "answers": ["restring", "restrung"],
+                "sentence": "My strings broke, so I need to get my racket ___."
+            },
+            {
+                "meaning": "(라켓) 그립을 새로 감다",
+                "answers": ["re-grip", "re-gripping"],
+                "sentence": "My hands are sweaty, so I should be ___ my racket soon."
+            },
+            {
+                "meaning": "손목 스냅으로 가볍고 빠르게 쳐올리다",
+                "answers": ["flick", "flicked"],
+                "sentence": "She ___ the birdie over my head when I was close to the net."
+            },
+            {
+                "meaning": "상대방 코트 끝까지 길고 높게 쳐보내다 (클리어)",
+                "answers": ["clear"],
+                "sentence": "When you are in trouble, just ___ the birdie high to the back."
+            },
+            {
+                "meaning": "네트 바로 뒤로 뚝 떨어지는 샷 (드롭샷)",
+                "answers": ["drop shot"],
+                "sentence": "He surprised me with a perfect ___ that landed right behind the net."
+            },
+            {
+                "meaning": "셔틀콕을 높게 띄워 올리다",
+                "answers": ["lob", "lobbed"],
+                "sentence": "I ___ the birdie high defensively to buy some time."
+            },
+            {
+                "meaning": "강력하게 내리꽂다 / 스매시를 때리다",
+                "answers": ["smash", "smashed"],
+                "sentence": "He jumped up high and ___ the birdie directly at my feet."
+            },
+            {
+                "meaning": "랠리를 이어가다 / 공을 계속 치고받다",
+                "answers": ["rally", "rallying"],
+                "sentence": "We have been ___ for over a minute without a mistake."
+            },
+            {
+                "meaning": "라켓 중앙의 공이 가장 잘 맞는 부분",
+                "answers": ["sweet spot"],
+                "sentence": "If you hit the birdie in the ___, it makes a very satisfying sound."
+            },
+            {
+                "meaning": "코트 대각선으로 / 크로스로",
+                "answers": ["crosscourt"],
+                "sentence": "She suddenly hit the birdie ___, catching her opponent off guard."
+            },
+            {
+                "meaning": "발놀림 / 스텝",
+                "answers": ["footwork"],
+                "sentence": "Good ___ is more important than arm strength in this sport."
+            },
+            {
+                "meaning": "(서브 등에서) 반칙을 범하다",
+                "answers": ["fault", "faulted"],
+                "sentence": "The umpire called a ___ because the serve was too high."
+            }
+        ]
+    },
+
+
+    {
+        "title": "Tourist Attraction Expressions 🗺️",
+        "date": "2026-05-08",
+        "questions": [
+            {
+                "meaning": "관광, 명소 구경",
+                "answers": ["sightseeing"],
+                "sentence": "We didn't have much time for ___ because of the business meetings."
+            },
+            {
+                "meaning": "관광객에게 바가지를 씌우는 곳 / 덤터기",
+                "answers": ["tourist trap"],
+                "sentence": "Don't eat at that restaurant right next to the museum; it's a total ___."
+            },
+            {
+                "meaning": "사람들의 발길이 잘 닿지 않는 곳 / 외진 곳",
+                "answers": ["off the beaten path"],
+                "sentence": "I prefer traveling to places that are a bit ___ to avoid the crowds."
+            },
+            {
+                "meaning": "주요 명소 / 랜드마크",
+                "answers": ["landmark", "landmarks"],
+                "sentence": "The Eiffel Tower is arguably the most famous ___ in Paris."
+            },
+            {
+                "meaning": "여행 일정(표)",
+                "answers": ["itinerary"],
+                "sentence": "Let's check our ___ to see what time the guided tour starts tomorrow."
+            },
+            {
+                "meaning": "기념품",
+                "answers": ["souvenir", "souvenirs"],
+                "sentence": "I bought this traditional wooden craft as a ___ from my trip to Kyoto."
+            },
+            {
+                "meaning": "성수기",
+                "answers": ["peak season"],
+                "sentence": "Hotel prices usually double during the ___ in the summer."
+            },
+            {
+                "meaning": "잘 알려지지 않은 멋진 곳 / 숨겨진 명소",
+                "answers": ["hidden gem"],
+                "sentence": "This quiet, beautiful beach is a true ___ known only to the locals."
+            },
+            {
+                "meaning": "가이드가 동행하는 투어",
+                "answers": ["guided tour"],
+                "sentence": "We booked a ___ of the ancient ruins to learn more about the history."
+            },
+            {
+                "meaning": "경치가 좋은 / 그림 같이 아름다운",
+                "answers": ["scenic"],
+                "sentence": "We decided to take the ___ route along the coast instead of the highway."
+            },
+            {
+                "meaning": "꼭 봐야 할 곳 / 필수 코스",
+                "answers": ["must-see", "must see"],
+                "sentence": "The Grand Canyon is absolutely a ___ if you are visiting Arizona."
+            },
+            {
+                "meaning": "당일치기 여행",
+                "answers": ["day trip"],
+                "sentence": "We took a ___ to the neighboring island and came back by dinner."
+            },
+            {
+                "meaning": "(여행을 위해) 가볍게 짐을 싸다",
+                "answers": ["pack light"],
+                "sentence": "Since we are moving around a lot, it's very important to ___."
+            },
+            {
+                "meaning": "(휴가용) 숙소 / 머물 곳",
+                "answers": ["accommodation", "accommodations"],
+                "sentence": "It's hard to find cheap ___ during the holiday weekend."
+            }
+        ]
+    },
+
+    {
+        "title": "Dining Out Expressions 🍽️",
+        "date": "2026-05-11",
+        "questions": [
+            {
+                "meaning": "남은 음식",
+                "answers": ["leftover", "leftovers"],
+                "sentence": "Can I get a box for these ___?"
+            },
+            {
+                "meaning": "더치페이하다 / 각자 내다",
+                "answers": ["split the bill"],
+                "sentence": "Since we both ordered expensive meals, let's ___."
+            },
+            {
+                "meaning": "(음식을) 포장해가다 / 포장 음식",
+                "answers": ["takeout"],
+                "sentence": "I am too tired to cook tonight, so let's just order ___."
+            },
+            {
+                "meaning": "(자신이) 한턱내다 / 쏘다",
+                "answers": ["on me"],
+                "sentence": "Put your wallet away; dinner is ___ tonight."
+            },
+            {
+                "meaning": "식욕 / 입맛",
+                "answers": ["appetite"],
+                "sentence": "The delicious smell from the kitchen really gave me a big ___."
+            },
+            {
+                "meaning": "(음식의) 양 / 1인분",
+                "answers": ["portion", "portions"],
+                "sentence": "This restaurant is famous for serving huge ___ of pasta."
+            },
+            {
+                "meaning": "~이 엄청 당기다 / 간절히 먹고 싶다",
+                "answers": ["crave", "craving"],
+                "sentence": "I have been ___ spicy food all day long."
+            },
+            {
+                "meaning": "싱거운 / 맛이 밍밍한",
+                "answers": ["bland"],
+                "sentence": "This soup is a bit ___, so I need to add some salt and pepper."
+            },
+            {
+                "meaning": "포장용 상자 (남은 음식 싸갈 때)",
+                "answers": ["to-go box"],
+                "sentence": "Excuse me, could I get a ___ for my leftover pizza?"
+            },
+            {
+                "meaning": "리필 / 리필하다",
+                "answers": ["refill", "refills"],
+                "sentence": "Does this diner offer free ___ on coffee?"
+            },
+            {
+                "meaning": "대표 메뉴 / 간판 메뉴",
+                "answers": ["signature dish"],
+                "sentence": "You absolutely must try their ___, the truffle mushroom risotto."
+            },
+            {
+                "meaning": "식성이 까다로운 / 편식하는",
+                "answers": ["picky"],
+                "sentence": "My little brother is a very ___ eater and only eats chicken nuggets."
+            },
+            {
+                "meaning": "배가 터질 듯한 / 매우 배부른",
+                "answers": ["stuffed"],
+                "sentence": "I am completely ___; I can't eat another bite."
+            },
+            {
+                "meaning": "단골손님",
+                "answers": ["regular", "regulars"],
+                "sentence": "The owner knows my order by heart because I am one of their ___."
+            },
+            {
+                "meaning": "예약을 하다",
+                "answers": ["make a reservation"],
+                "sentence": "It gets very busy on weekends, so you should ___ in advance."
+            }
+        ]
+    },
+
+    {
+        "title": "Hospital & Health Expressions 🏥",
+        "date": "2026-05-18",
+        "questions": [
+            {
+                "meaning": "처방전",
+                "answers": ["prescription"],
+                "sentence": "I need to take this ___ to the pharmacy to get my medicine."
+            },
+            {
+                "meaning": "증상",
+                "answers": ["symptom", "symptoms"],
+                "sentence": "A high fever and a sore throat are common ___ of the flu."
+            },
+            {
+                "meaning": "진통제",
+                "answers": ["painkiller", "painkillers"],
+                "sentence": "If your headache gets worse, you should take some ___."
+            },
+            {
+                "meaning": "어지러운",
+                "answers": ["dizzy"],
+                "sentence": "I stood up too quickly and suddenly felt ___."
+            },
+            {
+                "meaning": "토하다 / 구토하다",
+                "answers": ["vomit", "vomited"],
+                "sentence": "The smell of the spoiled milk made me want to ___."
+            },
+            {
+                "meaning": "(발목, 손목 등을) 삐다",
+                "answers": ["sprain", "sprained"],
+                "sentence": "I accidentally ___ my ankle while playing basketball yesterday."
+            },
+            {
+                "meaning": "멍",
+                "answers": ["bruise", "bruises"],
+                "sentence": "I bumped into the table and got dark ___ on my legs."
+            },
+            {
+                "meaning": "(몸이) 부은 / 부어오른",
+                "answers": ["swollen"],
+                "sentence": "My throat is so ___ that I can't even swallow water."
+            },
+            {
+                "meaning": "소화불량",
+                "answers": ["indigestion"],
+                "sentence": "Eating too much spicy food late at night can cause ___."
+            },
+            {
+                "meaning": "가래",
+                "answers": ["phlegm"],
+                "sentence": "I have a terrible cough and a lot of ___ in my throat."
+            },
+            {
+                "meaning": "기절하다 / 의식을 잃다",
+                "answers": ["faint", "fainted"],
+                "sentence": "The pain was so unbearable that she almost ___."
+            },
+            {
+                "meaning": "(병을) 치료하다 / 낫게 하다",
+                "answers": ["cure"],
+                "sentence": "There is still no medicine that can completely ___ the common cold."
+            },
+            {
+                "meaning": "진료 예약",
+                "answers": ["appointment"],
+                "sentence": "I have an ___ with my dentist at 3 PM tomorrow."
+            },
+            {
+                "meaning": "회복하다",
+                "answers": ["recover", "recovering"],
+                "sentence": "She is currently resting at home and ___ from her surgery."
+            },
+            {
+                "meaning": "전염성이 있는",
+                "answers": ["contagious"],
+                "sentence": "You should stay home because your eye infection is highly ___."
+            }
+        ]
+    },
+
+    {
+        "title": "Jobs & Occupations 💼",
+        "date": "2026-06-01",
+        "questions": [
+            {
+                "meaning": "회계사",
+                "answers": ["accountant", "accountants"],
+                "sentence": "The company hired two new ___ to handle the complex taxes."
+            },
+            {
+                "meaning": "배관공",
+                "answers": ["plumber"],
+                "sentence": "We had to call a ___ because the bathroom pipe suddenly burst."
+            },
+            {
+                "meaning": "건축가",
+                "answers": ["architect"],
+                "sentence": "The ___ who designed this beautiful museum won a famous award."
+            },
+            {
+                "meaning": "목수",
+                "answers": ["carpenter", "carpenters"],
+                "sentence": "Those skilled ___ built this wooden furniture completely by hand."
+            },
+            {
+                "meaning": "약사",
+                "answers": ["pharmacist"],
+                "sentence": "The ___ explained how many times a day I should take the pills."
+            },
+            {
+                "meaning": "수의사",
+                "answers": ["veterinarian"],
+                "sentence": "I took my sick dog to the ___ this morning for a thorough checkup."
+            },
+            {
+                "meaning": "전기 기사",
+                "answers": ["electrician"],
+                "sentence": "You should never fix those dangerous wires yourself; hire an ___."
+            },
+            {
+                "meaning": "(항공기) 승무원",
+                "answers": ["flight attendant", "flight attendants"],
+                "sentence": "The ___ kindly helped the passengers put their bags in the overhead bins."
+            },
+            {
+                "meaning": "정비사",
+                "answers": ["mechanic", "mechanics"],
+                "sentence": "We need to hire more experienced ___ for our auto repair shop."
+            },
+            {
+                "meaning": "외과 의사",
+                "answers": ["surgeon", "surgeons"],
+                "sentence": "The hospital has a dedicated team of highly skilled heart ___."
+            },
+            {
+                "meaning": "통역사",
+                "answers": ["interpreter"],
+                "sentence": "Since the president doesn't speak French, he traveled with an ___."
+            },
+            {
+                "meaning": "공인중개사 / 부동산 중개인",
+                "answers": ["real estate agent"],
+                "sentence": "The ___ showed us three different apartments near the subway station."
+            },
+            {
+                "meaning": "소방관",
+                "answers": ["firefighter", "firefighters"],
+                "sentence": "The brave ___ successfully put out the terrible forest fire."
+            },
+            {
+                "meaning": "비서",
+                "answers": ["secretary"],
+                "sentence": "The boss asked his ___ to schedule an important meeting for next Tuesday."
+            },
+            {
+                "meaning": "건물 관리인 / 청소부",
+                "answers": ["janitor"],
+                "sentence": "The school ___ stays late every evening to mop the hallway floors."
+            }
+        ]
+    },
+
+    {
+        "title": "Office Supplies 📎",
+        "date": "2026-06-08",
+        "questions": [
+            {
+                "meaning": "형광펜",
+                "answers": ["highlighter", "highlighters"],
+                "sentence": "I need some yellow ___ to mark the important parts of this document."
+            },
+            {
+                "meaning": "서류 파쇄기 / 분쇄기",
+                "answers": ["shredder"],
+                "sentence": "Please put these confidential documents into the ___ right now."
+            },
+            {
+                "meaning": "접착 메모지 (포스트잇)",
+                "answers": ["sticky note", "sticky notes"],
+                "sentence": "I always leave ___ on my computer monitor so I don't forget my tasks."
+            },
+            {
+                "meaning": "압정",
+                "answers": ["thumbtack", "thumbtacks"],
+                "sentence": "Could you pass me some ___ to hang this notice on the board?"
+            },
+            {
+                "meaning": "명함",
+                "answers": ["business card", "business cards"],
+                "sentence": "We exchanged our ___ before the meeting officially started."
+            },
+            {
+                "meaning": "(서류용) 봉투",
+                "answers": ["envelope", "envelopes"],
+                "sentence": "We need larger ___ to mail these thick contracts to the clients."
+            },
+            {
+                "meaning": "계산기",
+                "answers": ["calculator"],
+                "sentence": "I am terrible at math, so I always use a ___ for my taxes."
+            },
+            {
+                "meaning": "집게 클립",
+                "answers": ["binder clip", "binder clips"],
+                "sentence": "This report is too thick for a stapler, so let's use some ___ instead."
+            },
+            {
+                "meaning": "수정액 (화이트)",
+                "answers": ["whiteout"],
+                "sentence": "I made a spelling mistake with my pen, so I need some ___."
+            },
+            {
+                "meaning": "연필깎이",
+                "answers": ["pencil sharpener"],
+                "sentence": "The tip of my pencil broke; do you know where the ___ is?"
+            },
+            {
+                "meaning": "고무줄",
+                "answers": ["rubber band", "rubber bands"],
+                "sentence": "She tied the rolled-up posters together with a few thick ___."
+            },
+            {
+                "meaning": "달력 / 탁상 달력",
+                "answers": ["calendar"],
+                "sentence": "I marked the date of our next team dinner on my desk ___."
+            },
+            {
+                "meaning": "종이 클립",
+                "answers": ["paper clip", "paper clips"],
+                "sentence": "Can I borrow a few ___ to keep these receipts together?"
+            },
+            {
+                "meaning": "펀치 (구멍 뚫는 기구)",
+                "answers": ["hole punch"],
+                "sentence": "Use the ___ before putting those papers into your binder."
+            },
+            {
+                "meaning": "게시판",
+                "answers": ["bulletin board"],
+                "sentence": "The HR department posted the new holiday schedule on the ___."
+            }
+        ]
+    },
+
+    {
+        "title": "Driving & Traffic Expressions 🚗",
+        "date": "2026-06-15",
+        "questions": [
+            {
+                "meaning": "운전대 (핸들)",
+                "answers": ["steering wheel"],
+                "sentence": "You must keep both hands on the ___ while driving on the highway."
+            },
+            {
+                "meaning": "룸미러 (백미러)",
+                "answers": ["rearview mirror"],
+                "sentence": "Always check your ___ before you hit the brakes suddenly."
+            },
+            {
+                "meaning": "차에 타다 (승용차, 택시 등)",
+                "answers": ["get in", "got in"],
+                "sentence": "Hurry up and ___ the car before it starts raining."
+            },
+            {
+                "meaning": "차에서 내리다",
+                "answers": ["get out of", "get out"],
+                "sentence": "Please wait until the car completely stops before you ___."
+            },
+            {
+                "meaning": "과속 방지턱",
+                "answers": ["speed bump", "speed bumps"],
+                "sentence": "You need to slow down because there are several ___ in this school zone."
+            },
+            {
+                "meaning": "보행자",
+                "answers": ["pedestrian", "pedestrians"],
+                "sentence": "Drivers must always stop when ___ are crossing the street."
+            },
+            {
+                "meaning": "교차로 / 사거리",
+                "answers": ["intersection"],
+                "sentence": "Take a left turn at the next ___ with the traffic light."
+            },
+            {
+                "meaning": "차선",
+                "answers": ["lane", "lanes"],
+                "sentence": "Make sure to check your blind spot before changing ___."
+            },
+            {
+                "meaning": "경적을 울리다 (빵빵거리다)",
+                "answers": ["honk", "honking"],
+                "sentence": "The angry driver behind me kept ___ because I was driving too slowly."
+            },
+            {
+                "meaning": "차를 길가에 대다 / 정차하다",
+                "answers": ["pull over"],
+                "sentence": "The police officer turned on his sirens and told me to ___ immediately."
+            },
+            {
+                "meaning": "벌금 / 과태료",
+                "answers": ["fine"],
+                "sentence": "I had to pay a heavy ___ for running a red light yesterday."
+            },
+            {
+                "meaning": "펑크 난 타이어",
+                "answers": ["flat tire"],
+                "sentence": "We can't drive anymore because the front wheel has a ___."
+            },
+            {
+                "meaning": "음주 운전",
+                "answers": ["drunk driving"],
+                "sentence": "He lost his driver's license completely because of ___."
+            },
+            {
+                "meaning": "견인하다",
+                "answers": ["tow", "towed"],
+                "sentence": "If you park in front of the fire station, your car will get ___."
+            },
+            {
+                "meaning": "양보하다",
+                "answers": ["yield"],
+                "sentence": "You must ___ to the cars that are already inside the roundabout."
+            }
+        ]
+    },
+
+    {
+        "title": "Banking & Finance Expressions 💰",
+        "date": "2026-06-22",
+        "questions": [
+            {
+                "meaning": "입금하다",
+                "answers": ["deposit"],
+                "sentence": "I need to go to the ATM to ___ this cash into my account."
+            },
+            {
+                "meaning": "출금하다 / 돈을 뽑다",
+                "answers": ["withdraw", "withdrew"],
+                "sentence": "He ___ some cash from the ATM to pay for the taxi yesterday."
+            },
+            {
+                "meaning": "이체하다 / 송금하다",
+                "answers": ["transfer"],
+                "sentence": "You can easily ___ money to your friend using the mobile app."
+            },
+            {
+                "meaning": "잔액 / 잔고",
+                "answers": ["balance"],
+                "sentence": "I checked my bank ___ on the app and realized I have almost no money left."
+            },
+            {
+                "meaning": "이자율 / 금리",
+                "answers": ["interest rate", "interest rates"],
+                "sentence": "The bank recently increased its ___ for savings accounts."
+            },
+            {
+                "meaning": "대출",
+                "answers": ["loan"],
+                "sentence": "She had to take out a huge bank ___ to buy her new house."
+            },
+            {
+                "meaning": "수수료",
+                "answers": ["fee", "fees"],
+                "sentence": "You have to pay extra ___ if you use another bank's ATM."
+            },
+            {
+                "meaning": "환전하다",
+                "answers": ["exchange"],
+                "sentence": "Where is the best place to ___ Korean Won for US Dollars?"
+            },
+            {
+                "meaning": "할부(로)",
+                "answers": ["installment", "installments"],
+                "sentence": "I bought the new smartphone and decided to pay for it in monthly ___."
+            },
+            {
+                "meaning": "(빚을) 모두 갚다 / 청산하다",
+                "answers": ["pay off", "paid off"],
+                "sentence": "It took him exactly five years to completely ___ his student loans."
+            },
+            {
+                "meaning": "일시불로",
+                "answers": ["in full"],
+                "sentence": "If you pay the credit card bill ___, you don't have to pay any extra interest."
+            },
+            {
+                "meaning": "빚 / 부채",
+                "answers": ["debt"],
+                "sentence": "He is currently working two jobs to get out of his heavy credit card ___."
+            },
+            {
+                "meaning": "돈을 모으다 / 저축하다",
+                "answers": ["save up", "saving up"],
+                "sentence": "I am ___ to buy a brand new car next year."
+            },
+            {
+                "meaning": "(은행, 카드) 거래 내역서 / 명세서",
+                "answers": ["statement"],
+                "sentence": "I found a strange purchase while checking my credit card ___ this morning."
+            },
+            {
+                "meaning": "예산",
+                "answers": ["budget"],
+                "sentence": "We spent too much on eating out and went over our monthly ___."
+            }
+        ]
+    },
+
+    {
+        "title": "Public Offices & Institutions 🏛️",
+        "date": "2026-06-29",
+        "questions": [
+            {
+                "meaning": "시청",
+                "answers": ["city hall"],
+                "sentence": "We went to the ___ to officially register our marriage."
+            },
+            {
+                "meaning": "구청",
+                "answers": ["district office"],
+                "sentence": "You can get your passport issued at the local ___."
+            },
+            {
+                "meaning": "동사무소 / 행정복지센터",
+                "answers": ["community center"],
+                "sentence": "I visited the ___ to get a copy of my resident registration."
+            },
+            {
+                "meaning": "세무서",
+                "answers": ["tax office"],
+                "sentence": "I need to visit the local ___ to solve a problem with my income taxes."
+            },
+            {
+                "meaning": "우체국",
+                "answers": ["post office"],
+                "sentence": "I have to stop by the ___ to send this large package to Canada."
+            },
+            {
+                "meaning": "경찰서",
+                "answers": ["police station"],
+                "sentence": "He went to the nearest ___ to report his stolen wallet."
+            },
+            {
+                "meaning": "소방서",
+                "answers": ["fire station"],
+                "sentence": "The children went on a field trip to the ___ to see the red fire trucks."
+            },
+            {
+                "meaning": "법원",
+                "answers": ["courthouse"],
+                "sentence": "The trial will take place at the main ___ downtown next Monday."
+            },
+            {
+                "meaning": "대사관",
+                "answers": ["embassy"],
+                "sentence": "If you lose your passport abroad, you should contact your country's ___."
+            },
+            {
+                "meaning": "영사관 (대사관의 지부 역할)",
+                "answers": ["consulate"],
+                "sentence": "I had to visit the foreign ___ to get a special travel visa."
+            },
+            {
+                "meaning": "출입국관리소",
+                "answers": ["immigration office"],
+                "sentence": "You must visit the ___ to extend your stay before your visa expires."
+            },
+            {
+                "meaning": "세관",
+                "answers": ["customs"],
+                "sentence": "All international passengers must pass through ___ before leaving the airport."
+            },
+            {
+                "meaning": "보건소",
+                "answers": ["public health center"],
+                "sentence": "You can get a free flu shot at the ___ this winter."
+            },
+            {
+                "meaning": "차량등록사업소 / 운전면허 관리국 (미국)",
+                "answers": ["DMV"],
+                "sentence": "I spent three hours waiting in line at the ___ to renew my driver's license."
+            },
+            {
+                "meaning": "특허청",
+                "answers": ["patent office"],
+                "sentence": "The inventor submitted his new machine design to the ___."
+            }
+        ]
+    },
+
+    {
+        "title": "Optician & Eyesight Expressions 👓",
+        "date": "2026-07-06",
+        "questions": [
+            {
+                "meaning": "안경테",
+                "answers": ["frame", "frames"],
+                "sentence": "I want to buy these new glasses ___, but they are a bit too expensive."
+            },
+            {
+                "meaning": "안경알 / (안경) 렌즈",
+                "answers": ["lens", "lenses"],
+                "sentence": "My eyesight got worse, so I just need to replace the ___ in my old glasses."
+            },
+            {
+                "meaning": "시력",
+                "answers": ["eyesight"],
+                "sentence": "Eating a lot of carrots and blueberries is known to be good for your ___."
+            },
+            {
+                "meaning": "시력 검사",
+                "answers": ["eye exam"],
+                "sentence": "You should get an ___ every year to check the overall health of your eyes."
+            },
+            {
+                "meaning": "(안경, 렌즈의) 도수 / 처방전",
+                "answers": ["prescription"],
+                "sentence": "My current glasses are blurry because my ___ has changed recently."
+            },
+            {
+                "meaning": "근시의 (가까운 것만 잘 보이는)",
+                "answers": ["nearsighted"],
+                "sentence": "I am severely ___, so I can't read the menu on the wall without my glasses."
+            },
+            {
+                "meaning": "난시",
+                "answers": ["astigmatism"],
+                "sentence": "People with ___ often see streetlights blurring or streaking at night."
+            },
+            {
+                "meaning": "(얼굴형에 맞게 안경을) 조절하다 / 피팅하다",
+                "answers": ["adjust", "adjusted"],
+                "sentence": "The optician ___ the frames so they wouldn't slide down my nose anymore."
+            },
+            {
+                "meaning": "콘택트렌즈 (일상적인 줄임말)",
+                "answers": ["contact", "contacts"],
+                "sentence": "I usually wear glasses at home and put on my ___ when I go out."
+            },
+            {
+                "meaning": "(렌즈) 세척액 / 보존액",
+                "answers": ["solution"],
+                "sentence": "Don't forget to wash your lenses with the contact ___ every single night."
+            },
+            {
+                "meaning": "(렌즈를 눈에) 끼다 / 넣다",
+                "answers": ["put in"],
+                "sentence": "It takes a lot of practice to easily ___ your contact lenses without blinking."
+            },
+            {
+                "meaning": "(렌즈를) 빼다",
+                "answers": ["take out"],
+                "sentence": "You must always wash your hands with soap before you ___ your contacts."
+            },
+            {
+                "meaning": "(안경을) 벗다",
+                "answers": ["take off"],
+                "sentence": "Please ___ your glasses before you go to sleep so they don't break."
+            },
+            {
+                "meaning": "눈부심 방지 (코팅)",
+                "answers": ["anti-glare"],
+                "sentence": "Adding an ___ coating to your lenses is highly recommended for night driving."
+            },
+            {
+                "meaning": "안경닦이 (천)",
+                "answers": ["cleaning cloth"],
+                "sentence": "Never use a rough tissue to wipe your lenses; always use a soft ___."
+            }
+        ]
+    },
+
+    {
+        "title": "Airport Phrasal Verbs ✈️",
+        "date": "2026-07-13",
+        "questions": [
+            {
+                "meaning": "탑승 수속을 밟다",
+                "answers": ["check in"],
+                "sentence": "We need to ___ at the airline counter at least two hours before the flight."
+            },
+            {
+                "meaning": "이륙하다 / (비행기가) 날아오르다",
+                "answers": ["take off"],
+                "sentence": "Please fasten your seatbelt securely because the plane is about to ___."
+            },
+            {
+                "meaning": "착륙하다 / 땅에 닿다",
+                "answers": ["touch down", "touches down"],
+                "sentence": "Please remain seated until the plane completely ___ on the runway."
+            },
+            {
+                "meaning": "(수하물을) 맡기다",
+                "answers": ["drop off"],
+                "sentence": "You can quickly ___ your heavy suitcases at that counter over there."
+            },
+            {
+                "meaning": "(검색대, 절차 등을) 통과하다 / 거치다",
+                "answers": ["go through"],
+                "sentence": "It usually takes a long time to ___ security during the holiday season."
+            },
+            {
+                "meaning": "(비행기, 기차 등에) 올라타다 / 탑승하다",
+                "answers": ["get on"],
+                "sentence": "Have your boarding pass and passport ready before you ___ the plane."
+            },
+            {
+                "meaning": "(비행기 등에서) 내리다",
+                "answers": ["get off"],
+                "sentence": "Please make sure you have all your personal belongings when you ___ the aircraft."
+            },
+            {
+                "meaning": "경유하다 / 잠시 머물다",
+                "answers": ["stop over"],
+                "sentence": "We are going to ___ in Dubai for three hours before flying to Paris."
+            },
+            {
+                "meaning": "(비행이나 일정을) 지연시키다 / 발을 묶다",
+                "answers": ["hold up", "held up"],
+                "sentence": "Our flight was ___ for two hours because of the heavy snowstorm."
+            },
+            {
+                "meaning": "(면세점 등을) 둘러보다 / 구경하다",
+                "answers": ["look around"],
+                "sentence": "We have some extra time to ___ the duty-free shops before boarding starts."
+            },
+            {
+                "meaning": "(사람을) 마중 나가다 / 차로 데리러 가다",
+                "answers": ["pick up"],
+                "sentence": "My brother promised to ___ my family at the arrival gate."
+            },
+            {
+                "meaning": "(여행을 향해) 출발하다 / 길을 나서다",
+                "answers": ["set off"],
+                "sentence": "We should ___ for the airport early to avoid the terrible morning traffic."
+            },
+            {
+                "meaning": "줄을 서다",
+                "answers": ["line up"],
+                "sentence": "The passengers started to ___ at the gate thirty minutes before departure."
+            },
+            {
+                "meaning": "(주변을) 서성거리다 / 시간을 때우다",
+                "answers": ["hang around"],
+                "sentence": "Since our flight is delayed, we will just have to ___ the waiting area."
+            },
+            {
+                "meaning": "(짐을) 싸다 / 챙겨서 정리하다",
+                "answers": ["pack up", "packed up"],
+                "sentence": "Make sure you have ___ all your chargers before leaving the VIP lounge."
+            }
+        ]
+    },
+
+    {
+        "title": "Native Spoken Expressions 🗣️",
+        "date": "2026-07-20",
+        "questions": [
+            {
+                "meaning": "(변명, 거짓말 등을) 믿다 / 속아 넘어가다",
+                "answers": ["buy"],
+                "sentence": "He said he was sick, but I don't ___ his excuse."
+            },
+            {
+                "meaning": "아쉬운 일 / 실망스러운 상황",
+                "answers": ["bummer"],
+                "sentence": "It's a huge ___ that the concert got canceled."
+            },
+            {
+                "meaning": "(갑자기) 연락을 끊다 / 잠수 타다",
+                "answers": ["ghost", "ghosted"],
+                "sentence": "We went on a few dates, and then she completely ___ me."
+            },
+            {
+                "meaning": "약속을 취소하다 / 파토내다",
+                "answers": ["bail", "bailed"],
+                "sentence": "I am so sorry, but I have to ___ on our dinner plans tonight."
+            },
+            {
+                "meaning": "하소연하다 / 속에 있는 말을 터뜨리다",
+                "answers": ["vent", "venting"],
+                "sentence": "I just had a terrible day at work and need someone to listen to me ___."
+            },
+            {
+                "meaning": "녹초가 된 / 몹시 피곤한",
+                "answers": ["beat"],
+                "sentence": "I worked for twelve hours straight today, and I am completely ___."
+            },
+            {
+                "meaning": "완전 신난 / 잔뜩 기대하는",
+                "answers": ["stoked"],
+                "sentence": "I am so ___ for the upcoming trip to Hawaii next week."
+            },
+            {
+                "meaning": "삐친 / 억울해서 화가 난",
+                "answers": ["salty"],
+                "sentence": "He is still a bit ___ because he lost the video game to his little brother."
+            },
+            {
+                "meaning": "수상한 / 미심쩍은",
+                "answers": ["sketchy"],
+                "sentence": "I wouldn't walk down that dark street at night; it looks a bit ___."
+            },
+            {
+                "meaning": "애매한 / 상태가 안 좋은",
+                "answers": ["iffy"],
+                "sentence": "The weather looks a bit ___ today, so maybe we should stay inside."
+            },
+            {
+                "meaning": "은근히 / 겉으로 티 안 내게",
+                "answers": ["low-key"],
+                "sentence": "I am ___ worried about the test tomorrow, but I'm trying not to show it."
+            },
+            {
+                "meaning": "직감 / 본능적인 느낌",
+                "answers": ["gut"],
+                "sentence": "Sometimes you just have to trust your ___ and make a decision."
+            },
+            {
+                "meaning": "위기일발에 딱 맞게 도움을 주는 / 결정적인",
+                "answers": ["clutch"],
+                "sentence": "Bringing an extra umbrella was totally ___ since it started pouring rain."
+            },
+            {
+                "meaning": "(조건 없는 호의 등에 숨겨진) 함정 / 속셈",
+                "answers": ["catch"],
+                "sentence": "They are giving away free laptops? There has to be a ___."
+            },
+            {
+                "meaning": "믿음직한 / (부족함 없이) 훌륭한",
+                "answers": ["solid"],
+                "sentence": "He gave me some really ___ advice on how to handle the situation."
+            }
+        ]
+    },
+
+    {
+        "title": "Hyphenated Spoken Expressions 🗣️",
+        "date": "2026-07-27",
+        "questions": [
+            {
+                "meaning": "용납할 수 없는 조건 / 거래 무산의 원인",
+                "answers": ["deal-breaker", "deal breaker"],
+                "sentence": "His lack of communication was a huge ___ for me in the relationship."
+            },
+            {
+                "meaning": "가장 즐겨 찾는 / 의지하는 (사람이나 물건)",
+                "answers": ["go-to", "go to"],
+                "sentence": "Whenever I need advice on cooking, my mom is my ___ person."
+            },
+            {
+                "meaning": "판도를 바꾸는 것 / 획기적인 변화",
+                "answers": ["game-changer", "game changer"],
+                "sentence": "The new software update is a complete ___ for our daily workflow."
+            },
+            {
+                "meaning": "바가지 / 터무니없이 비싼 것",
+                "answers": ["rip-off", "rip off"],
+                "sentence": "Fifty dollars for a cup of coffee is a total ___."
+            },
+            {
+                "meaning": "착오 / 혼동",
+                "answers": ["mix-up", "mix up"],
+                "sentence": "There was a slight ___ with your reservation, but we fixed it."
+            },
+            {
+                "meaning": "실망스러운 것 / 허탈함",
+                "answers": ["let-down", "let down"],
+                "sentence": "The movie's ending was a huge ___ after such a great buildup."
+            },
+            {
+                "meaning": "필수 아이템 / 꼭 가져야 할 것",
+                "answers": ["must-have", "must have"],
+                "sentence": "A warm winter coat is an absolute ___ if you live in Canada."
+            },
+            {
+                "meaning": "일장일단 / 타협점",
+                "answers": ["trade-off", "trade off"],
+                "sentence": "There is always a ___ between speed and quality when building a product."
+            },
+            {
+                "meaning": "모조품 / 짝퉁",
+                "answers": ["knock-off", "knock off"],
+                "sentence": "He bought a cheap ___ of a designer bag at the night market."
+            },
+            {
+                "meaning": "가벼운 모임 / 친목회",
+                "answers": ["get-together", "get together"],
+                "sentence": "We are having a small ___ at my house this Friday night."
+            },
+            {
+                "meaning": "후속 조치 / 후속 점검",
+                "answers": ["follow-up", "follow up"],
+                "sentence": "The doctor scheduled a ___ appointment for next Wednesday to check on my progress."
+            },
+            {
+                "meaning": "어색함을 깨는 것 (농담이나 활동)",
+                "answers": ["ice-breaker", "ice breaker"],
+                "sentence": "We played a fun game as an ___ before the meeting started."
+            },
+            {
+                "meaning": "상호 이익 / 모두에게 좋은 상황",
+                "answers": ["win-win", "win win"],
+                "sentence": "This new partnership is a ___ situation for both of our companies."
+            },
+            {
+                "meaning": "근황 토크 / 밀린 이야기 나누기",
+                "answers": ["catch-up", "catch up"],
+                "sentence": "Let's grab a cup of coffee next week for a quick ___."
+            },
+            {
+                "meaning": "상황 점검 / 짧은 회의",
+                "answers": ["check-in", "check in"],
+                "sentence": "We have a brief ___ every morning to discuss our daily tasks."
+            }
+        ]
+    },
+
+    {
+        "title": "Driving & Commuting 🚗",
+        "date": "2026-08-03",
+        "questions": [
+            {
+                "meaning": "차를 길가에 대다",
+                "answers": ["pull over"],
+                "sentence": "We had to ___ because we heard a strange noise coming from the engine."
+            },
+            {
+                "meaning": "가벼운 접촉 사고",
+                "answers": ["fender-bender", "fender bender"],
+                "sentence": "I got into a minor ___ on my way to the office this morning."
+            },
+            {
+                "meaning": "안전벨트를 매다",
+                "answers": ["buckle up"],
+                "sentence": "Please ___ before we get on the highway."
+            },
+            {
+                "meaning": "(교통이) 밀리다 / 정체되다",
+                "answers": ["back up", "backed up"],
+                "sentence": "Traffic is completely ___ for miles due to the road construction."
+            },
+            {
+                "meaning": "앞차에 바짝 붙어 운전하다",
+                "answers": ["tailgate", "tailgating"],
+                "sentence": "It is extremely dangerous to be ___ a large truck on the freeway."
+            },
+            {
+                "meaning": "과속 방지턱",
+                "answers": ["speed bump"],
+                "sentence": "You need to slow down because there is a ___ right ahead."
+            },
+            {
+                "meaning": "타이어 펑크",
+                "answers": ["flat tire"],
+                "sentence": "I was late for my job interview because my car got a ___."
+            },
+            {
+                "meaning": "우회로",
+                "answers": ["detour"],
+                "sentence": "The bridge is closed for repairs, so we have to take a ___."
+            },
+            {
+                "meaning": "과속 딱지",
+                "answers": ["speeding ticket"],
+                "sentence": "My dad was really upset when he got a ___ in the mail."
+            },
+            {
+                "meaning": "브레이크를 (급히) 밟다",
+                "answers": ["hit the brakes"],
+                "sentence": "I had to suddenly ___ when a cat ran across the street."
+            },
+            {
+                "meaning": "출퇴근 혼잡 시간",
+                "answers": ["rush hour"],
+                "sentence": "It usually takes twice as long to get home during ___."
+            },
+            {
+                "meaning": "차를 빼다 / (도로로) 빠져나오다",
+                "answers": ["pull out"],
+                "sentence": "Always check your blind spot before you ___ of the driveway."
+            },
+            {
+                "meaning": "평행 주차하다",
+                "answers": ["parallel park"],
+                "sentence": "Many beginners find it very difficult to ___ on a busy street."
+            },
+            {
+                "meaning": "기름(가스)이 다 떨어지다",
+                "answers": ["run out of gas", "ran out of gas"],
+                "sentence": "We unfortunately ___ in the middle of nowhere and had to call a tow truck."
+            },
+            {
+                "meaning": "카풀하다 / 차를 같이 타다",
+                "answers": ["carpool", "carpooling"],
+                "sentence": "My coworkers and I are ___ to work these days to save some money."
+            }
+        ]
+    },
+
+    {
+        "title": "Modern Dating & Relationship Slang 💘",
+        "date": "2026-08-10",
+        "questions": [
+            {
+                "meaning": "과도한 애정 공세를 퍼붓다",
+                "answers": ["love bomb", "love bombing"],
+                "sentence": "It's a huge red flag if someone starts ___ you right after the first date."
+            },
+            {
+                "meaning": "간만 보다 / 여지만 남기다 (어장 관리)",
+                "answers": ["breadcrumb", "breadcrumbing"],
+                "sentence": "He is just ___ you by sending random texts without ever making real plans."
+            },
+            {
+                "meaning": "연락은 안 하면서 SNS 주변만 맴돌다",
+                "answers": ["orbit", "orbiting"],
+                "sentence": "My ex keeps ___ me by watching all my Instagram stories but never replying."
+            },
+            {
+                "meaning": "썸과 연애 사이의 애매한 관계",
+                "answers": ["situationship"],
+                "sentence": "We hang out every weekend, but we are still stuck in a ___ with no clear labels."
+            },
+            {
+                "meaning": "위험 신호 / 걸러야 할 특징",
+                "answers": ["red flag"],
+                "sentence": "The fact that he talks badly about all his exes is a massive ___."
+            },
+            {
+                "meaning": "긍정적인 신호 / 좋은 사람의 특징",
+                "answers": ["green flag"],
+                "sentence": "How respectfully she treats the restaurant staff is definitely a big ___."
+            },
+            {
+                "meaning": "갑자기 정떨어지는 순간이나 느낌",
+                "answers": ["ick"],
+                "sentence": "I was really into him until he was rude to the waiter, and then I instantly got the ___."
+            },
+            {
+                "meaning": "보험용으로 어장에 두다",
+                "answers": ["bench", "benching"],
+                "sentence": "She isn't ready for a relationship, so she is just ___ you in case she changes her mind."
+            },
+            {
+                "meaning": "은근슬쩍 연애 티를 내다 (얼굴 없는 사진 등)",
+                "answers": ["soft launch"],
+                "sentence": "Posting a picture of two coffee cups without showing his face is a classic ___."
+            },
+            {
+                "meaning": "온라인에서 다른 사람인 척 신분을 속이다",
+                "answers": ["catfish", "catfishing"],
+                "sentence": "You should video call him before meeting up to make sure he isn't ___ you."
+            },
+            {
+                "meaning": "이별 후 위로 삼아 만나는 사람 (리바운드)",
+                "answers": ["rebound"],
+                "sentence": "Don't date him right now; he just broke up and you will only be a ___."
+            },
+            {
+                "meaning": "존재를 지인들에게 꽁꽁 숨기다",
+                "answers": ["stash", "stashing"],
+                "sentence": "If he hasn't introduced you to any of his friends after six months, he is probably ___ you."
+            },
+            {
+                "meaning": "날이 추워져서 짝을 찾는 시기 (겨울 연애철)",
+                "answers": ["cuffing season"],
+                "sentence": "As the weather gets colder, many single people start looking for partners for ___."
+            },
+            {
+                "meaning": "서서히 연락을 줄이며 멀어지기",
+                "answers": ["slow fade"],
+                "sentence": "Instead of breaking up directly, he decided to do the ___ by taking hours to reply."
+            }
+        ]
+    },
+
+    {
+        "title": "Real Estate & House Hunting 🏠",
+        "date": "2026-08-18",
+        "questions": [
+            {
+                "meaning": "집주인",
+                "answers": ["landlord"],
+                "sentence": "I need to call my ___ because the heater is completely broken."
+            },
+            {
+                "meaning": "세입자",
+                "answers": ["tenant", "tenants"],
+                "sentence": "The landlord is looking for new ___ to move into the empty apartment."
+            },
+            {
+                "meaning": "보증금",
+                "answers": ["security deposit"],
+                "sentence": "You will get your full ___ back when your contract ends."
+            },
+            {
+                "meaning": "월세",
+                "answers": ["monthly rent"],
+                "sentence": "The ___ for this small apartment is way too expensive for me."
+            },
+            {
+                "meaning": "임대차 계약(서)",
+                "answers": ["lease"],
+                "sentence": "I officially signed a one-year ___ for the new apartment this morning."
+            },
+            {
+                "meaning": "원룸 (방과 거실이 하나로 된 형태)",
+                "answers": ["studio apartment"],
+                "sentence": "She lives alone in a cozy ___ near the subway station."
+            },
+            {
+                "meaning": "풀옵션의 (가구와 가전이 모두 갖춰진)",
+                "answers": ["fully furnished"],
+                "sentence": "I don't need to buy a bed or a desk because the room is ___."
+            },
+            {
+                "meaning": "관리비",
+                "answers": ["maintenance fee"],
+                "sentence": "Does the rent include the ___ for building cleaning and parking?"
+            },
+            {
+                "meaning": "이사 오다 / 입주하다",
+                "answers": ["move in"],
+                "sentence": "I just got the keys, and I am planning to ___ this weekend."
+            },
+            {
+                "meaning": "이사 나가다 / 방을 빼다",
+                "answers": ["move out"],
+                "sentence": "You must completely clean the room before you ___ next week."
+            },
+            {
+                "meaning": "주택 담보 대출",
+                "answers": ["mortgage"],
+                "sentence": "It will take them exactly thirty years to fully pay off their ___."
+            },
+            {
+                "meaning": "계약금 / 선수금",
+                "answers": ["down payment"],
+                "sentence": "I finally saved enough money to make a 20% ___ on a house."
+            },
+            {
+                "meaning": "집들이",
+                "answers": ["housewarming party"],
+                "sentence": "We are throwing a small ___ this Saturday, so please come!"
+            },
+            {
+                "meaning": "퇴거시키다 / 쫓아내다",
+                "answers": ["evict", "evicted"],
+                "sentence": "The angry landlord ___ him because he didn't pay rent for three months."
+            },
+            {
+                "meaning": "평면도 / 집 도면",
+                "answers": ["floor plan"],
+                "sentence": "I carefully checked the ___ online before visiting the property in person."
+            }
+        ]
+    },
+
+    {
+        "title": "Personality & Behavioral Traits 🧠",
+        "date": "2026-08-24",
+        "questions": [
+            {
+                "meaning": "덜렁대는 / 서투른",
+                "answers": ["clumsy"],
+                "sentence": "I am so ___ that I always drop my phone or spill my coffee."
+            },
+            {
+                "meaning": "느긋한 / 털털한",
+                "answers": ["laid-back", "laid back"],
+                "sentence": "He is very ___ and never gets stressed about small mistakes."
+            },
+            {
+                "meaning": "고집이 센 / 완고한",
+                "answers": ["stubborn"],
+                "sentence": "She is so ___ that she never listens to anyone else's advice."
+            },
+            {
+                "meaning": "참견하기 좋아하는 / 오지랖 넓은",
+                "answers": ["nosy"],
+                "sentence": "My ___ neighbor is always trying to find out about my personal life."
+            },
+            {
+                "meaning": "다혈질의 / 욱하는",
+                "answers": ["hot-tempered", "hot tempered"],
+                "sentence": "You need to be careful what you say to him because he is quite ___."
+            },
+            {
+                "meaning": "인색한 / 짠돌이인",
+                "answers": ["stingy"],
+                "sentence": "He is too ___ to leave a tip for the waiter at the restaurant."
+            },
+            {
+                "meaning": "사교성이 매우 좋은 사람 / 마당발",
+                "answers": ["social butterfly"],
+                "sentence": "My sister is a true ___ who loves going to parties and meeting new people."
+            },
+            {
+                "meaning": "눈치 빠른 / 재치 있는",
+                "answers": ["quick-witted", "quick witted"],
+                "sentence": "You need to be ___ to understand all the clever jokes in this movie."
+            },
+            {
+                "meaning": "건망증이 심한 / 잘 깜빡하는",
+                "answers": ["forgetful"],
+                "sentence": "As my grandfather got older, he became quite ___ about people's names."
+            },
+            {
+                "meaning": "솔직한 / 직설적인",
+                "answers": ["straightforward"],
+                "sentence": "I appreciate how ___ she is; she always tells you exactly what she thinks."
+            },
+            {
+                "meaning": "이래라저래라 하는 / 지시하기 좋아하는",
+                "answers": ["bossy"],
+                "sentence": "Nobody likes working with him because he is too ___ to his coworkers."
+            },
+            {
+                "meaning": "개방적인 / 편견 없는",
+                "answers": ["open-minded", "open minded"],
+                "sentence": "We need an ___ person who can accept different cultures and new ideas."
+            },
+            {
+                "meaning": "소심한 / 겁이 많은",
+                "answers": ["timid"],
+                "sentence": "The ___ little boy hid behind his mother's legs when a stranger said hello."
+            },
+            {
+                "meaning": "믿음직한 / 의지가 되는",
+                "answers": ["reliable"],
+                "sentence": "He is a very ___ friend who will always be there to help you when you are in trouble."
+            },
+            {
+                "meaning": "앞뒤가 다른 / 위선적인",
+                "answers": ["two-faced", "two faced"],
+                "sentence": "I found out she was talking bad about me behind my back; she is so ___."
+            }
+        ]
+    },
+
+    {
+        "title": "Hospital & Health Expressions 🏥",
+        "date": "2026-08-31",
+        "questions": [
+            {
+                "meaning": "깁스",
+                "answers": ["cast"],
+                "sentence": "I broke my leg while skiing, so I have to wear a ___ for six weeks."
+            },
+            {
+                "meaning": "링거 / 수액",
+                "answers": ["IV"],
+                "sentence": "He was so dehydrated that the doctor had to give him an ___ at the hospital."
+            },
+            {
+                "meaning": "허리 디스크",
+                "answers": ["slipped disc", "slipped disk"],
+                "sentence": "My uncle had to get surgery last month because of a painful ___."
+            },
+            {
+                "meaning": "체함 / 소화불량 (속이 안 좋은 상태)",
+                "answers": ["upset stomach"],
+                "sentence": "I think I ate that spicy food too fast, and now I have an ___."
+            },
+            {
+                "meaning": "처방전",
+                "answers": ["prescription"],
+                "sentence": "You cannot buy these strong antibiotics at the pharmacy without a doctor's ___."
+            },
+            {
+                "meaning": "진통제",
+                "answers": ["painkiller", "painkillers"],
+                "sentence": "If your headache gets worse, take two of these ___ after meals."
+            },
+            {
+                "meaning": "연고",
+                "answers": ["ointment"],
+                "sentence": "Wash the cut carefully and apply this ___ to prevent an infection."
+            },
+            {
+                "meaning": "콧물 / 콧물이 흐르는 상태",
+                "answers": ["runny nose"],
+                "sentence": "I caught a bad cold, and I have had a ___ and a fever all day."
+            },
+            {
+                "meaning": "인후통 / 목이 따가운 증상",
+                "answers": ["sore throat"],
+                "sentence": "It hurts every time I swallow water because I have a terrible ___."
+            },
+            {
+                "meaning": "입원하다",
+                "answers": ["hospitalize", "hospitalized"],
+                "sentence": "She was heavily injured in the car crash and had to be ___ for a month."
+            },
+            {
+                "meaning": "퇴원하다",
+                "answers": ["discharge", "discharged"],
+                "sentence": "The doctor checked my test results and said I will be ___ tomorrow morning."
+            },
+            {
+                "meaning": "병가를 내다 (아파서 쉰다고 연락하다)",
+                "answers": ["call in sick"],
+                "sentence": "I feel completely terrible this morning, so I have to ___ today."
+            },
+            {
+                "meaning": "멍 / 멍이 들다",
+                "answers": ["bruise", "bruised"],
+                "sentence": "My arm is badly ___ from falling off my bicycle yesterday."
+            },
+            {
+                "meaning": "부작용",
+                "answers": ["side effect", "side effects"],
+                "sentence": "Drowsiness and a dry mouth are the most common ___ of this allergy medicine."
+            },
+            {
+                "meaning": "(근육에) 쥐가 나다 / 경련",
+                "answers": ["cramp", "cramps"],
+                "sentence": "I didn't stretch before running, so I got terrible ___ in my legs."
+            }
+        ]
+    },
+
+    {
+        "title": "College & University Life Expressions 🎓",
+        "date": "2026-09-07",
+        "questions": [
+            {
+                "meaning": "벼락치기하다",
+                "answers": ["cram", "cramming"],
+                "sentence": "I didn't study at all, so I will be ___ for my history midterms tonight."
+            },
+            {
+                "meaning": "밤을 새우다 (과제나 시험 때문에)",
+                "answers": ["pull an all-nighter", "pull an all nighter", "pulled an all-nighter", "pulled an all nighter"],
+                "sentence": "We had to finish the final presentation, so we completely ___ yesterday."
+            },
+            {
+                "meaning": "수강신청",
+                "answers": ["course registration"],
+                "sentence": "Our university's ___ website always crashes on the very first day."
+            },
+            {
+                "meaning": "팀플 / 조별 과제",
+                "answers": ["group project", "group projects"],
+                "sentence": "I usually hate ___ because there is always one person who doesn't do any work."
+            },
+            {
+                "meaning": "컨닝하다 / 부정행위를 하다 (콩글리시 'cunning' 교정)",
+                "answers": ["cheat", "cheating"],
+                "sentence": "He was caught ___ on the final exam and failed the class immediately."
+            },
+            {
+                "meaning": "휴학하다 (한 학기 쉬다)",
+                "answers": ["take a semester off", "took a semester off"],
+                "sentence": "She was feeling so burned out that she ___ to travel around Europe."
+            },
+            {
+                "meaning": "동아리 (콩글리시 'circle' 교정)",
+                "answers": ["club", "clubs"],
+                "sentence": "Joining various student ___ is a great way to make new friends on campus."
+            },
+            {
+                "meaning": "재수강하다",
+                "answers": ["retake", "retaking"],
+                "sentence": "I got a D in calculus, so I am definitely ___ the class next semester."
+            },
+            {
+                "meaning": "족보 / 기출문제",
+                "answers": ["past paper", "past papers"],
+                "sentence": "Studying with ___ from previous years is the best way to prepare for his tests."
+            },
+            {
+                "meaning": "복수전공 / 복수전공을 하다",
+                "answers": ["double major", "double majoring"],
+                "sentence": "She is ___ in economics and psychology, so her schedule is always incredibly packed."
+            },
+            {
+                "meaning": "출석을 부르다",
+                "answers": ["take attendance", "takes attendance"],
+                "sentence": "The professor usually ___ right at the beginning of the lecture."
+            },
+            {
+                "meaning": "공강 (수업과 수업 사이 비는 시간)",
+                "answers": ["free period"],
+                "sentence": "I have a three-hour ___ on Wednesdays, so I usually go to the library to read."
+            },
+            {
+                "meaning": "조교 (TA)",
+                "answers": ["teaching assistant"],
+                "sentence": "If you have any questions about the homework, please ask the ___."
+            },
+            {
+                "meaning": "(과제나 논문을) 표절하다",
+                "answers": ["plagiarize", "plagiarized"],
+                "sentence": "He was expelled from the university because he completely ___ his graduation thesis."
+            },
+            {
+                "meaning": "자체 휴강하다 / 수업을 땡땡이치다",
+                "answers": ["skip class", "skipping class", "skipped class"],
+                "sentence": "The weather was so beautiful that we just ___ and went to the park instead."
+            }
+        ]
+    },
+
+    {
+        "title": "Banking & Personal Finance 🏦",
+        "date": "2026-09-14",
+        "questions": [
+            {
+                "meaning": "송금하다 / 이체하다",
+                "answers": ["transfer"],
+                "sentence": "I need to ___ some money to my parents' bank account this afternoon."
+            },
+            {
+                "meaning": "잔액 / 잔고",
+                "answers": ["balance"],
+                "sentence": "I checked my bank ___ online and realized I spent way too much this month."
+            },
+            {
+                "meaning": "체크카드",
+                "answers": ["debit card"],
+                "sentence": "I prefer using a ___ instead of a credit card because it prevents me from overspending."
+            },
+            {
+                "meaning": "입출금 (자유) 계좌",
+                "answers": ["checking account"],
+                "sentence": "Your monthly salary will be automatically deposited into your ___."
+            },
+            {
+                "meaning": "적금 / 예금 계좌",
+                "answers": ["savings account"],
+                "sentence": "She transfers a portion of her paycheck into her ___ every month for the future."
+            },
+            {
+                "meaning": "할부",
+                "answers": ["installment", "installments"],
+                "sentence": "The laptop was too expensive, so I decided to pay for it in ___."
+            },
+            {
+                "meaning": "일시불",
+                "answers": ["lump sum"],
+                "sentence": "Instead of paying monthly, he paid for his new car in a ___."
+            },
+            {
+                "meaning": "출금하다 / 돈을 뽑다",
+                "answers": ["withdraw"],
+                "sentence": "I need to stop by the ATM to ___ some cash for the weekend trip."
+            },
+            {
+                "meaning": "입금하다",
+                "answers": ["deposit"],
+                "sentence": "I went to the bank yesterday to ___ a large check I received."
+            },
+            {
+                "meaning": "이자율 / 금리",
+                "answers": ["interest rate"],
+                "sentence": "This bank offers a very high ___ for long-term customers."
+            },
+            {
+                "meaning": "환율",
+                "answers": ["exchange rate"],
+                "sentence": "The ___ is very high right now, so it is quite expensive to travel abroad."
+            },
+            {
+                "meaning": "대출을 받다",
+                "answers": ["take out a loan", "took out a loan"],
+                "sentence": "They didn't have enough money, so they ___ to start their new restaurant business."
+            },
+            {
+                "meaning": "공인인증서 / 디지털 인증서",
+                "answers": ["digital certificate"],
+                "sentence": "In Korea, you often need a ___ to log into government and banking websites."
+            },
+            {
+                "meaning": "은행 수수료",
+                "answers": ["bank fee", "bank fees"],
+                "sentence": "You will be charged extra ___ if you use another bank's ATM late at night."
+            },
+            {
+                "meaning": "명세서 / 거래 내역서",
+                "answers": ["statement"],
+                "sentence": "Carefully check your monthly credit card ___ to make sure there are no errors."
+            }
+        ]
+    },
+
+    {
+        "title": "Company Life Part 2: Working Culture 🏢",
+        "date": "2026-09-21",
+        "questions": [
+            {
+                "meaning": "야근하다",
+                "answers": ["work overtime"],
+                "sentence": "I had to ___ yesterday to finish the urgent sales report."
+            },
+            {
+                "meaning": "연차 / 유급 휴가",
+                "answers": ["paid leave"],
+                "sentence": "Employees are officially given fifteen days of ___ every year."
+            },
+            {
+                "meaning": "병가",
+                "answers": ["sick leave"],
+                "sentence": "He is currently on ___ because he caught a really bad flu."
+            },
+            {
+                "meaning": "회식",
+                "answers": ["company dinner"],
+                "sentence": "We are having a ___ tonight to welcome the new team members."
+            },
+            {
+                "meaning": "출근 기록을 하다 / 출근 도장을 찍다",
+                "answers": ["clock in"],
+                "sentence": "Don't forget to ___ exactly when you arrive at the office."
+            },
+            {
+                "meaning": "퇴근 기록을 하다 / 퇴근 도장을 찍다",
+                "answers": ["clock out"],
+                "sentence": "I usually ___ at 6 PM and go straight to the gym."
+            },
+            {
+                "meaning": "퇴근하다 / 일과를 마치다 (칼퇴하다)",
+                "answers": ["get off work"],
+                "sentence": "What time do you usually ___ on Fridays?"
+            },
+            {
+                "meaning": "(업무를) 인수인계하다",
+                "answers": ["hand over"],
+                "sentence": "I need to ___ all my pending tasks to my coworker before my vacation."
+            },
+            {
+                "meaning": "승진하다",
+                "answers": ["get promoted", "got promoted"],
+                "sentence": "She ___ to senior manager after working incredibly hard this year."
+            },
+            {
+                "meaning": "사직서",
+                "answers": ["resignation letter"],
+                "sentence": "He finally submitted his ___ to the HR department this morning."
+            },
+            {
+                "meaning": "급여 명세서",
+                "answers": ["pay stub"],
+                "sentence": "You can easily check your bonuses and taxes on your online ___."
+            },
+            {
+                "meaning": "농땡이 피우다 / 요령 피우다",
+                "answers": ["slack off", "slacking off"],
+                "sentence": "The boss got angry because some employees were ___ during working hours."
+            },
+            {
+                "meaning": "유연 근무제",
+                "answers": ["flexible working hours"],
+                "sentence": "Our company recently adopted ___ to improve the work-life balance of employees."
+            },
+            {
+                "meaning": "수습 기간",
+                "answers": ["probationary period"],
+                "sentence": "New employees must complete a three-month ___ before becoming permanent staff."
+            },
+            {
+                "meaning": "(일이 많아) 파묻히다 / 눈코 뜰 새 없이 바쁘다",
+                "answers": ["snow under", "snowed under"],
+                "sentence": "I can't go out for lunch today because I am completely ___ with paperwork."
+            }
+        ]
+    },
+
+
+    {
+        "title": "Weather & Seasons Expressions 🌤️",
+        "date": "2026-09-28",
+        "questions": [
+            {
+                "meaning": "환절기",
+                "answers": ["change of seasons"],
+                "sentence": "Many people easily catch a cold during the ___."
+            },
+            {
+                "meaning": "일교차",
+                "answers": ["temperature difference"],
+                "sentence": "You should bring a jacket because there is a huge ___ between day and night."
+            },
+            {
+                "meaning": "옷을 여러 겹 껴입다",
+                "answers": ["layer up"],
+                "sentence": "It is really cold outside, so make sure to ___ before you go out."
+            },
+            {
+                "meaning": "쌀쌀한",
+                "answers": ["chilly"],
+                "sentence": "The wind is quite ___ this evening, so I need a light sweater."
+            },
+            {
+                "meaning": "체감 온도",
+                "answers": ["wind chill"],
+                "sentence": "It is 5 degrees outside, but the ___ makes it feel like minus 2."
+            },
+            {
+                "meaning": "영하의",
+                "answers": ["below zero"],
+                "sentence": "The temperature is expected to drop ___ tonight."
+            },
+            {
+                "meaning": "얼어붙을 듯이 추운",
+                "answers": ["freezing"],
+                "sentence": "Can you please close the window? It is absolutely ___ in this room!"
+            },
+            {
+                "meaning": "포근한 / 온화한",
+                "answers": ["mild"],
+                "sentence": "We had a surprisingly ___ winter last year with almost no snow."
+            },
+            {
+                "meaning": "꽃가루 알레르기",
+                "answers": ["hay fever"],
+                "sentence": "Spring is beautiful, but my ___ makes my eyes itch and nose run all day."
+            },
+            {
+                "meaning": "미세먼지",
+                "answers": ["fine dust"],
+                "sentence": "You should definitely wear a mask today because the ___ level is very high."
+            },
+            {
+                "meaning": "변덕스러운 (날씨가)",
+                "answers": ["unpredictable"],
+                "sentence": "The weather in this city is notoriously ___, so always carry an umbrella."
+            },
+            {
+                "meaning": "소나기",
+                "answers": ["shower", "showers"],
+                "sentence": "The weather forecast says there will be brief scattered ___ in the afternoon."
+            },
+            {
+                "meaning": "후텁지근한 / 덥고 끈적이는",
+                "answers": ["muggy"],
+                "sentence": "I really hate summer here because the air is always so hot and ___."
+            },
+            {
+                "meaning": "푹푹 찌는 듯이 더운",
+                "answers": ["scorching"],
+                "sentence": "We stayed inside with the air conditioner on all day because of the ___ heat."
+            },
+            {
+                "meaning": "열대야 (밤에도 기온이 떨어지지 않는 현상)",
+                "answers": ["tropical night"],
+                "sentence": "I couldn't sleep well at all yesterday because it was another ___."
+            }
+        ]
+    },
+
+    {
+        "title": "Social Life & Drinking 🍻",
+        "date": "2026-10-05",
+        "questions": [
+            {
+                "meaning": "각자 내다 / N빵하다",
+                "answers": ["split the bill"],
+                "sentence": "Let's ___ for dinner tonight since we all ordered different things."
+            },
+            {
+                "meaning": "해장하다",
+                "answers": ["cure a hangover"],
+                "sentence": "I desperately need some hot and spicy soup to ___ from last night."
+            },
+            {
+                "meaning": "필름이 끊기다 / 기억을 잃다",
+                "answers": ["black out", "blacked out"],
+                "sentence": "He drank way too much whiskey and completely ___ at the party."
+            },
+            {
+                "meaning": "술고래 / 술이 아주 센 사람",
+                "answers": ["heavy drinker"],
+                "sentence": "My manager is a ___ who can easily finish five bottles of soju."
+            },
+            {
+                "meaning": "술을 잘 못 마시는 사람 (알쓰)",
+                "answers": ["lightweight"],
+                "sentence": "I am such a ___ that I get dizzy after just one glass of beer."
+            },
+            {
+                "meaning": "건배하다 / 축배를 들다",
+                "answers": ["make a toast"],
+                "sentence": "I would like to ___ to our new project and everyone's hard work."
+            },
+            {
+                "meaning": "맨정신인 / 술에 취하지 않은",
+                "answers": ["sober"],
+                "sentence": "I am the designated driver tonight, so I have to stay completely ___."
+            },
+            {
+                "meaning": "알딸딸한 / 기분 좋게 취한",
+                "answers": ["tipsy"],
+                "sentence": "She was feeling a little bit ___ after drinking two glasses of wine."
+            },
+            {
+                "meaning": "만취한 / 꽐라가 된",
+                "answers": ["wasted"],
+                "sentence": "They were completely ___ by midnight and couldn't even walk straight."
+            },
+            {
+                "meaning": "2차를 가다",
+                "answers": ["go for a second round"],
+                "sentence": "We finished the barbecue, so let's ___ of drinks at a pub."
+            },
+            {
+                "meaning": "한턱내다 / 쏘다",
+                "answers": ["treat"],
+                "sentence": "You helped me a lot this week, so let me ___ you to dinner tonight."
+            },
+            {
+                "meaning": "(술이나 차를) 홀짝홀짝 마시다",
+                "answers": ["sip", "sipping"],
+                "sentence": "Instead of taking shots, I prefer ___ my cocktail slowly."
+            },
+            {
+                "meaning": "분위기를 띄우다 / 어색함을 깨다",
+                "answers": ["break the ice"],
+                "sentence": "We played a quick drinking game to ___ because everyone was so quiet."
+            },
+            {
+                "meaning": "(파티나 모임에) 초대받지 않고 불쑥 가다",
+                "answers": ["crash", "crashed"],
+                "sentence": "We didn't have an invitation, but we secretly ___ the wedding party."
+            },
+            {
+                "meaning": "숙취",
+                "answers": ["hangover"],
+                "sentence": "I have a terrible ___ this morning because we mixed beer and wine."
+            }
+        ]
+    },
+
+    {
+        "title": "Emotions & Moods 🎭",
+        "date": "2026-10-12",
+        "questions": [
+            {
+                "meaning": "귀찮은 일 / 번거로움",
+                "answers": ["hassle"],
+                "sentence": "Going all the way to the supermarket just to buy milk is such a ___."
+            },
+            {
+                "meaning": "아쉬운 / 실망한",
+                "answers": ["bummed"],
+                "sentence": "I was really ___ that we couldn't go to the concert together."
+            },
+            {
+                "meaning": "어색한 / 뻘쭘한",
+                "answers": ["awkward"],
+                "sentence": "There was an ___ silence in the room after he made that bad joke."
+            },
+            {
+                "meaning": "(상황이나 마음이) 답답한 / 짜증 나는",
+                "answers": ["frustrating"],
+                "sentence": "It is so ___ when the internet connection keeps dropping during a meeting."
+            },
+            {
+                "meaning": "(공간이나 공기가) 답답한 / 숨 막히는",
+                "answers": ["stuffy"],
+                "sentence": "Can we open a window? It feels really ___ in this small room."
+            },
+            {
+                "meaning": "안도하는 / 마음이 놓이는 (다행이다)",
+                "answers": ["relieved"],
+                "sentence": "I was so ___ to hear that everyone arrived home safely."
+            },
+            {
+                "meaning": "눈치를 보다 / 살얼음판을 걷듯 조심하다",
+                "answers": ["walking on eggshells"],
+                "sentence": "My boss is in a terrible mood today, so everyone is ___ around him."
+            },
+            {
+                "meaning": "어이가 없는 / 말도 안 되는",
+                "answers": ["ridiculous"],
+                "sentence": "The price they are charging for a basic cup of coffee is absolutely ___."
+            },
+            {
+                "meaning": "삐지다 / 토라지다",
+                "answers": ["sulking"],
+                "sentence": "She has been ___ in her room all day because I forgot our anniversary."
+            },
+            {
+                "meaning": "(감동이나 일이 많아) 벅찬 / 압도되는",
+                "answers": ["overwhelmed"],
+                "sentence": "I was completely ___ by the surprise birthday party and started crying."
+            },
+            {
+                "meaning": "소름 / 닭살",
+                "answers": ["goosebumps", "goose bumps"],
+                "sentence": "The singer's voice was so beautiful that it literally gave me ___."
+            },
+            {
+                "meaning": "거슬리다 / 신경 쓰이게 하다",
+                "answers": ["bothering"],
+                "sentence": "That loud construction noise outside is really ___ me today."
+            },
+            {
+                "meaning": "기죽은 / 위축된 (쫄다)",
+                "answers": ["intimidated"],
+                "sentence": "I felt a little ___ by all the highly experienced people in the meeting room."
+            },
+            {
+                "meaning": "소외감을 느끼는 / 서운한",
+                "answers": ["left out", "left-out"],
+                "sentence": "I felt a little bit ___ when they went to the cafe without inviting me."
+            }
+        ]
+    }
+]
