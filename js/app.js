@@ -655,61 +655,80 @@ function renderBlankHome() {
     setTop('빈칸 표현', '');
     const b = state.blank;
     const total = MOCK.blankTotal;
-    const pct = (b.cursor / total) * 100;
-    const start = b.cursor + 1, end = Math.min(total, b.cursor + BLANK_SESSION_SIZE);
+    const learned = b.cursor;
+    const abyss = b.abyss.length;
+    const review = b.review.length;
+    const remembered = Math.max(0, learned - abyss - review);
+    const nearAbyss = b.review.filter(r => r.hits >= BLANK_ABYSS_HITS - 1).length;
+    const left = Math.max(0, total - learned);
+    const share = n => (learned ? (n / learned) * 100 : 0);
+    const pctTotal = (learned / total) * 100;
+
+    const msg = !learned ? '첫 10문장을 시작해 볼까요?'
+        : nearAbyss ? `${nearAbyss}문장만 한 번 더 맞히면 장기기억으로 넘어가요!`
+        : review ? `복습 ${review}문장만 끝내면 깔끔해요.`
+        : `지금까지 ${learned}문장을 공부했어요. 이대로 계속 가요!`;
+
+    const abyssChips = b.abyss.slice(-12).reverse().map(id => {
+        const it = blankById(id);
+        return it ? `<span class="bl-chip">${esc(it.expr)}</span>` : '';
+    }).join('');
+
     view.innerHTML = `
         ${state.user ? '' : `<div class="guest-banner" style="margin:0 0 12px"><span>💾</span><span>지금은 <b>이 기기에만</b> 진도가 저장돼요</span><button id="bl-login">로그인</button></div>`}
-        <div class="card blank-hero">
-            <div class="hero-top">
-                <div class="hero-num">${b.cursor.toLocaleString()} <small>/ ${total.toLocaleString()} 문장</small></div>
-                <div class="hero-caption">${pct.toFixed(1)}%</div>
-            </div>
-            <div class="progress-bar"><span style="width:${Math.max(pct, 1)}%"></span></div>
-            <div class="next-chunk">다음 학습: <b>${start}~${end}번째 문장</b></div>
-        </div>
 
-        <div class="action-grid">
-            <button class="action-card primary" id="bl-new">
-                <div>
-                    <div class="ac-title">학습 시작</div>
-                    <div class="ac-sub">새 문장 ${BLANK_SESSION_SIZE}개 이어서 풀기</div>
-                </div>
-                <span class="ac-arrow">→</span>
+        <section class="card bl-hero">
+            <div class="bl-kicker">지금까지 공부한 표현</div>
+            <div class="bl-big"><b>${learned.toLocaleString()}</b><span>문장</span></div>
+            <div class="bl-sub">${msg}</div>
+
+            <div class="bl-stack" role="img" aria-label="기억 중 ${remembered}, 복습 필요 ${review}, 장기기억 ${abyss}">
+                <i class="remembered" style="width:${share(remembered)}%"></i>
+                <i class="review" style="width:${share(review)}%"></i>
+                <i class="abyss" style="width:${share(abyss)}%"></i>
+            </div>
+
+            <div class="bl-legend">
+                <div class="remembered"><span>기억 중</span><b>${remembered}</b></div>
+                <div class="review"><span>복습 필요</span><b>${review}</b></div>
+                <div class="abyss"><span>장기기억</span><b>${abyss}</b></div>
+            </div>
+
+            <div class="bl-track" aria-hidden="true"><span style="width:${Math.max(pctTotal, 0.6)}%"></span></div>
+            <div class="bl-track-label">전체 ${total.toLocaleString()}문장 중 ${pctTotal.toFixed(1)}% · 남은 ${left.toLocaleString()}문장</div>
+        </section>
+
+        <div class="bl-actions">
+            <button class="bl-go primary" id="bl-new" ${left ? '' : 'disabled'}>
+                <span class="bl-go-label">학습 시작</span>
+                <span class="bl-go-count">새 문장 ${Math.min(BLANK_SESSION_SIZE, left)}개</span>
             </button>
-            <button class="action-card review" id="bl-review" ${b.review.length ? '' : 'disabled'}>
-                <div class="ac-title">복습</div>
-                <div class="ac-count">${b.review.length}</div>
-                <div class="ac-sub">틀렸던 문장 반복</div>
+            <button class="bl-go review" id="bl-review" ${review ? '' : 'disabled'}>
+                <span class="bl-go-label">복습</span>
+                <span class="bl-go-count">${review ? `최대 ${Math.min(BLANK_SESSION_SIZE, review)}문장` : '복습할 문장 없음'}</span>
             </button>
-            <div class="action-card abyss">
-                <div class="ac-title">🕳️ 심연</div>
-                <div class="ac-count">${b.abyss.length}</div>
-                <div class="ac-sub">완전히 익힌 문장 · 가끔 복습에 섞여 나와요</div>
-            </div>
         </div>
 
-        <div class="section-label">복습 규칙</div>
-        <div class="card">
-            <div class="ladder">
-                <span class="step">새 문장</span>→ 틀리면 →
-                <span class="step r">복습함</span>→ 복습에서 ${BLANK_ABYSS_HITS}번 맞추면 →
-                <span class="step a">심연</span>
-            </div>
-            <div class="hint-line" style="margin-top:10px">심연의 문장은 가끔 복습 세션에 1~2개씩 섞여 나오고, 틀리면 다시 복습함으로 돌아와요.</div>
+        <div class="section-label">장기기억으로 넘어간 표현</div>
+        <div class="card bl-abyss">
+            ${abyss
+                ? `<div class="bl-chips">${abyssChips}</div>${abyss > 12 ? `<div class="bl-more">외 ${abyss - 12}개</div>` : ''}`
+                : '<div class="bl-empty">복습에서 3번 맞힌 표현이 여기에 쌓여요.</div>'}
         </div>
 
-        ${b.review.length ? `
-        <div class="section-label">복습함 미리보기</div>
-        <div class="result-list" style="margin-top:0">
-            ${b.review.map(r => {
+        <div class="section-label">3번 맞히면 장기기억 · 틀리면 다시 복습</div>
+        ${review ? `<div class="result-list" style="margin-top:0">
+            ${b.review.slice(0, 8).map(r => {
                 const it = blankById(r.id);
-                return it ? `<div class="result-item"><span class="mark">🔁</span><span><span class="expr">${esc(it.expr)}</span><br><span style="color:var(--text-2)">${esc(it.meaning)}</span></span>
+                return it ? `<div class="result-item bl-review-row"><span class="mark">🔁</span><span><span class="expr">${esc(it.expr)}</span><br><span style="color:var(--text-2)">${esc(it.meaning)}</span></span>
                     <span class="move dots" style="margin:0 0 0 auto">${Array.from({ length: BLANK_ABYSS_HITS }, (_, k) => `<i class="${k < r.hits ? 'ok' : ''}"></i>`).join('')}</span></div>` : '';
             }).join('')}
-        </div>` : ''}
+            ${review > 8 ? `<div class="bl-more">외 ${review - 8}개 복습 대기</div>` : ''}
+        </div>` : '<div class="card bl-empty">복습할 문장이 없어요. 새 문장으로 계속 나가 볼까요?</div>'}
     `;
     $('#bl-new').onclick = () => go('blank/play/new');
-    $('#bl-review').onclick = () => go('blank/play/review');
+    const rv = $('#bl-review');
+    if (review) rv.onclick = () => go('blank/play/review');
     const bl = $('#bl-login');
     if (bl) bl.onclick = openLogin;
 }
@@ -915,6 +934,8 @@ function renderBlankResult() {
     if (!bs) return go('blank');
     const moves = bs.applied || (bs.applied = applyBlankResults());
     const okCount = bs.results.filter(r => r.ok).length;
+    const movedToReview = moves.filter(m => m === 'review' || m === 'back').length;
+    const movedToAbyss = moves.filter(m => m === 'abyss').length;
     const label = m => ({
         review: '<span class="pill to-review">→ 복습함</span>',
         abyss: '<span class="pill to-abyss">→ 🕳️ 심연</span>',
@@ -927,6 +948,11 @@ function renderBlankResult() {
         <div class="result">
             <div class="result-icon">${okCount === bs.results.length ? '🏆' : '✍️'}</div>
             <div class="result-title">${okCount} / ${bs.results.length} 정답</div>
+            <div class="bl-delta">
+                ${movedToAbyss ? `<span class="abyss">🕳️ 장기기억 +${movedToAbyss}</span>` : ''}
+                ${movedToReview ? `<span class="review">🔁 복습 필요 +${movedToReview}</span>` : ''}
+                ${!movedToAbyss && !movedToReview ? '<span class="remembered">✓ 모두 기억 중이에요</span>' : ''}
+            </div>
             <div class="result-sub">${bs.mode === 'new' ? `진도 ${state.blank.cursor.toLocaleString()} / ${MOCK.blankTotal.toLocaleString()} 문장` : `남은 복습 ${state.blank.review.length}개 · 심연 ${state.blank.abyss.length}개`}</div>
             <div class="result-list">
                 ${bs.results.map((r, k) => {

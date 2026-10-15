@@ -646,3 +646,78 @@ a.card { text-decoration: none; color: inherit; }
 }
 .hw-list { grid-template-columns: minmax(0, 1fr); }
 .hw-list > .hw-item { min-width: 0; }
+
+/* ───────── 빈칸 홈: 공부 현황 한눈에 ───────── */
+.bl-hero { padding: 22px 20px 20px; position: relative; overflow: hidden; }
+.bl-hero::before {
+    content: ""; position: absolute; inset: auto -40px -60px auto; width: 180px; height: 180px;
+    border-radius: 50%; background: var(--blank-soft); opacity: 0.7; pointer-events: none;
+}
+.bl-kicker { font-size: 12px; font-weight: 750; letter-spacing: 0.4px; color: var(--text-2); position: relative; }
+.bl-big { display: flex; align-items: baseline; gap: 8px; margin-top: 6px; position: relative; }
+.bl-big b { font-size: 52px; font-weight: 850; letter-spacing: -2px; line-height: 1; font-variant-numeric: tabular-nums; }
+.bl-big span { font-size: 18px; font-weight: 700; color: var(--text-2); }
+.bl-sub { margin-top: 10px; font-size: 15px; font-weight: 650; color: var(--text); line-height: 1.45; position: relative; word-break: keep-all; }
+
+.bl-stack {
+    display: flex; height: 16px; border-radius: 999px; overflow: hidden;
+    margin-top: 18px; background: var(--chip); position: relative;
+}
+.bl-stack i { display: block; height: 100%; transition: width 0.6s ease; }
+.bl-stack i + i { box-shadow: -2px 0 0 var(--surface); }
+.remembered { background: var(--order); }
+.review { background: var(--blank); }
+.abyss { background: var(--abyss); }
+
+.bl-legend { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 14px; position: relative; }
+.bl-legend > div {
+    padding: 10px 12px; border-radius: 14px; background: var(--surface-soft);
+    border-left: 4px solid transparent;
+    display: grid; gap: 2px;
+}
+.bl-legend > div.remembered { border-left-color: var(--order); }
+.bl-legend > div.review { border-left-color: var(--blank); }
+.bl-legend > div.abyss { border-left-color: var(--abyss); }
+.bl-legend span { font-size: 12px; font-weight: 650; color: var(--text-2); }
+.bl-legend b { font-size: 22px; font-weight: 850; letter-spacing: -0.5px; font-variant-numeric: tabular-nums; }
+.bl-legend > div.remembered b { color: var(--order); }
+.bl-legend > div.review b { color: var(--blank); }
+.bl-legend > div.abyss b { color: var(--abyss); }
+
+.bl-track { margin-top: 18px; height: 4px; border-radius: 999px; background: var(--chip); overflow: hidden; position: relative; }
+.bl-track span { display: block; height: 100%; background: var(--text-3); border-radius: inherit; }
+.bl-track-label { margin-top: 6px; font-size: 12px; color: var(--text-3); position: relative; }
+
+/* 학습 시작 / 복습 */
+.bl-actions { display: grid; grid-template-columns: 1.25fr 1fr; gap: 10px; margin-top: 12px; }
+.bl-go {
+    display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+    min-height: 98px; padding: 16px; border: 0; border-radius: 22px;
+    background: var(--surface); color: var(--text); text-align: left;
+    box-shadow: inset 0 0 0 1px var(--border);
+    transition: transform 0.12s;
+}
+.bl-go:active { transform: scale(0.98); }
+.bl-go:disabled { opacity: 0.45; }
+.bl-go.primary { background: var(--ink); color: var(--ink-contrast); box-shadow: none; }
+.bl-go-label { font-size: 17px; font-weight: 800; letter-spacing: -0.3px; }
+.bl-go-count { font-size: 13px; opacity: 0.75; font-weight: 600; }
+.bl-go.review .bl-go-label { color: var(--blank); }
+
+.bl-abyss { padding: 14px 16px; }
+.bl-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.bl-chip {
+    padding: 6px 11px; border-radius: 999px;
+    background: var(--abyss-soft); color: var(--abyss);
+    font-size: 13px; font-weight: 700;
+}
+.bl-more { margin-top: 10px; font-size: 12px; color: var(--text-3); font-weight: 650; }
+.bl-empty { font-size: 14px; color: var(--text-2); line-height: 1.5; }
+.bl-review-row { align-items: center; }
+
+/* 결과: 기억 변화 */
+.bl-delta { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 14px; }
+.bl-delta span { padding: 7px 13px; border-radius: 999px; font-size: 14px; font-weight: 750; background: var(--surface-soft); }
+.bl-delta span.abyss { background: var(--abyss-soft); color: var(--abyss); }
+.bl-delta span.review { background: var(--blank-soft); color: var(--blank); }
+.bl-delta span.remembered { background: var(--order-soft); color: var(--order); }
