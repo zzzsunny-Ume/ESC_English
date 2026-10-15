@@ -206,11 +206,11 @@ function renderHome() {
                 <div class="module-icon">🧩</div>
                 <div class="module-body">
                     <div class="module-name">영작 · 단어 나열</div>
+                    <div class="module-tags"><span>#순서 맞추기</span><span>#스피킹</span><span>#음성 인식</span></div>
                     <div class="module-desc">한국어 문장을 보고 단어를 탭하거나 🎤 말해서 영어 문장을 완성해요.</div>
                     <div class="module-meta">
                         <span class="pill">숙제 ${MOCK.orderPackages.length}개</span>
                         ${u ? `<span class="pill done">✓ ${state.orderDone.size}개 완료</span>` : ''}
-                        <span class="pill">🎤 음성 입력</span>
                     </div>
                 </div>
             </a>
@@ -229,6 +229,7 @@ function renderHome() {
                 <div class="module-icon">✍️</div>
                 <div class="module-body">
                     <div class="module-name">빈칸 표현</div>
+                    <div class="module-tags"><span>#타이핑</span><span>#핵심 표현</span><span>#복습 가능</span></div>
                     <div class="module-desc">예문 속 핵심 표현을 직접 타이핑해요. 10문장씩, 틀린 건 알아서 복습.</div>
                     <div class="module-meta">
                         <span class="pill new-badge">NEW</span>

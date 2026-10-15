@@ -502,3 +502,7 @@ a.card { text-decoration: none; color: inherit; }
 .vkb-key.space { flex: 4 1 0; max-width: none; font-size: 14px; font-weight: 600; color: var(--text-2); }
 .vkb-key.pressed, .vkb-key:active { transform: translateY(2px); box-shadow: none; filter: brightness(0.96); }
 .vkb-key:focus-visible { outline: 2px solid var(--text-2); outline-offset: 2px; }
+
+/* 홈 모듈 카드의 해시태그 */
+.module-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.module-tags span { font-size: 12px; font-weight: 650; color: var(--text-2); }
