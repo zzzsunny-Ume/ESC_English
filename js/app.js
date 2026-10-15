@@ -608,12 +608,17 @@ function renderWordResult() {
 const blankById = id => MOCK.blankItems.find(b => b.id === id);
 
 // cloze 문자열 "We {put} the bookshelf {together}." → 조각 배열
+// 여러 단어 표현(cut off 등)은 단어마다 입력칸을 따로 만든다. 단어 사이 공백은 글자로 보여 준다.
 function parseCloze(cloze) {
     const parts = [];
     cloze.split(/(\{[^}]+\})/).forEach(seg => {
         if (!seg) return;
-        if (seg.startsWith('{')) parts.push({ answer: seg.slice(1, -1) });
-        else parts.push({ text: seg });
+        if (seg.startsWith('{')) {
+            seg.slice(1, -1).split(' ').forEach((word, i) => {
+                if (i > 0) parts.push({ text: ' ' });
+                parts.push({ answer: word });
+            });
+        } else parts.push({ text: seg });
     });
     return parts;
 }
