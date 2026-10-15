@@ -514,3 +514,135 @@ a.card { text-decoration: none; color: inherit; }
 .club-title { font-size: 16px; font-weight: 750; }
 .club-desc { margin-top: 3px; font-size: 13px; color: var(--text-2); line-height: 1.4; word-break: keep-all; }
 .club-go { flex: 0 0 auto; font-size: 13px; font-weight: 700; color: var(--text); }
+
+/* ───────── 스피킹 화면 리디자인 ───────── */
+.sp-hero { padding: 2px 4px 2px; }
+.sp-hero p { margin: 0; color: var(--text-2); font-size: 14px; line-height: 1.55; word-break: keep-all; }
+
+/* 목록 */
+.sp-play {
+    width: 36px; height: 36px; flex: 0 0 auto;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    background: var(--chip); color: var(--text-2);
+    font-size: 12px; font-weight: 800;
+}
+.sp-play.on { background: var(--order); color: #FFFFFF; }
+.hw-item.is-done .hw-title { color: var(--text); }
+.hw-item.is-done .sp-play { background: var(--order-soft); }
+
+/* 진행 칸 */
+.sp-seg { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 4px; flex: 1; min-width: 0; }
+.sp-seg i { height: 6px; border-radius: 999px; background: var(--chip); transition: background 0.3s; }
+.sp-seg i.done { background: var(--order); }
+.sp-seg i.cur { background: color-mix(in srgb, var(--order) 45%, var(--chip)); }
+.game-head .counter { min-width: 40px; }
+
+/* 문제 */
+.sp-prompt { margin: 10px 2px 16px; }
+.sp-label {
+    display: inline-block; margin-bottom: 8px;
+    font-size: 12px; font-weight: 750; letter-spacing: 0.3px;
+    color: var(--order);
+}
+.sp-prompt .prompt-ko {
+    padding: 0; border: 0; background: none;
+    font-size: 22px; font-weight: 750; line-height: 1.4; letter-spacing: -0.3px;
+}
+
+/* 답 영역: 문장을 쌓는 줄 */
+.answer-zone {
+    min-height: 112px;
+    margin: 0 0 14px;
+    padding: 16px;
+    gap: 8px;
+    border: 0;
+    border-radius: 22px;
+    background: var(--surface);
+    box-shadow: inset 0 0 0 1px var(--border);
+}
+.answer-zone:empty::before { font-size: 14px; color: var(--text-3); }
+
+/* 단어 알약 */
+.word-btn {
+    padding: 9px 16px;
+    border: 0;
+    border-radius: 999px;
+    font-size: 16px; font-weight: 650;
+    background: var(--surface-soft);
+    box-shadow: none;
+}
+.word-pool .word-btn { border: 1px solid var(--border); background: var(--surface); box-shadow: 0 2px 0 var(--border); }
+.answer-zone .word-btn { background: var(--order-soft); color: var(--text); }
+.answer-zone .word-btn.voice { background: var(--bad-soft); }
+.word-btn.voice::after {
+    top: -7px; right: -5px;
+    border-color: var(--mic);
+}
+.word-pool { gap: 8px 8px; }
+
+/* 음성 패널 */
+.voice-panel {
+    margin-top: 0; margin-bottom: 14px; padding: 12px 16px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--surface);
+    color: var(--text-2);
+}
+.voice-panel .heard { font-size: 15px; }
+.eq { display: flex; align-items: center; gap: 3px; height: 18px; flex: 0 0 auto; }
+.eq i {
+    width: 3px; height: 100%; border-radius: 2px;
+    background: var(--mic);
+    transform-origin: center;
+    animation: eq 0.9s ease-in-out infinite;
+}
+.eq i:nth-child(2) { animation-delay: 0.12s; }
+.eq i:nth-child(3) { animation-delay: 0.24s; }
+.eq i:nth-child(4) { animation-delay: 0.36s; }
+.eq i:nth-child(5) { animation-delay: 0.48s; }
+@keyframes eq { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+
+/* 마이크 버튼 */
+.mic-btn { width: 58px; height: 58px; border-radius: 50%; }
+.mic-btn.on { animation: mic-ring 1.4s ease-out infinite; }
+@keyframes mic-ring {
+    0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--mic) 45%, transparent); }
+    100% { box-shadow: 0 0 0 14px transparent; }
+}
+.game-bottom { padding-top: 10px; }
+
+/* 완료: 도넛 차트 */
+.sp-ratio { display: flex; align-items: center; gap: 18px; text-align: left; }
+.sp-donut {
+    --voice: 0;
+    width: 112px; height: 112px; flex: 0 0 auto;
+    border-radius: 50%;
+    background: conic-gradient(var(--order) 0 calc(var(--voice) * 1%), var(--chip) 0);
+    display: grid; place-items: center;
+    position: relative;
+}
+.sp-donut::after {
+    content: ""; position: absolute; inset: 14px;
+    border-radius: 50%; background: var(--surface);
+}
+.sp-donut > div { position: relative; z-index: 1; text-align: center; }
+.sp-donut b { display: block; font-size: 22px; font-weight: 800; letter-spacing: -0.4px; }
+.sp-donut small { display: block; font-size: 12px; color: var(--text-2); margin-top: 2px; }
+.sp-legends { flex: 1; min-width: 0; display: grid; gap: 14px; }
+.sp-legend {
+    display: grid; grid-template-columns: 10px 1fr auto; column-gap: 8px; align-items: center;
+    font-size: 14px;
+}
+.sp-legend i { width: 10px; height: 10px; border-radius: 4px; grid-row: 1 / span 2; align-self: center; }
+.sp-legend i.tap { background: var(--chip); box-shadow: inset 0 0 0 1px var(--text-3); }
+.sp-legend i.voice { background: var(--order); }
+.sp-legend span { color: var(--text-2); }
+.sp-legend b { font-size: 16px; font-weight: 800; }
+.sp-legend em { grid-column: 2 / span 2; font-style: normal; font-size: 12px; color: var(--text-3); }
+
+@media (prefers-reduced-motion: reduce) {
+    .eq i, .mic-btn.on { animation: none; }
+}
+.hw-list { grid-template-columns: minmax(0, 1fr); }
+.hw-list > .hw-item { min-width: 0; }

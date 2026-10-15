@@ -275,6 +275,9 @@ function renderOrderList() {
     setTop('스피킹', '');
     const types = ['all', ...new Set(MOCK.orderPackages.filter(isVisible).map(p => p.type))];
     view.innerHTML = `
+        <header class="sp-hero">
+            <p>한국어 문장을 보고 영어 문장을 완성해요. 단어를 탭하거나 말해서 입력할 수 있어요.</p>
+        </header>
         <div class="list-tools">
             <label class="search-box">${icon.search}<input id="order-q" type="search" placeholder="제목 · 문장 검색" value="${esc(orderFilter.q)}"></label>
         </div>
@@ -295,11 +298,11 @@ function renderOrderList() {
             .filter(({ done }) => !state.user || orderFilter.status === 'all' || (orderFilter.status === 'done') === done);
         $('#order-list').innerHTML = items.length ? items.map(({ p, i, done }) => `
             <a class="card pressable hw-item ${done ? 'is-done' : ''}" href="#/order/play/${i}">
+                <span class="sp-play ${done ? 'on' : ''}" aria-hidden="true">${done ? '✓' : '▶'}</span>
                 <div class="hw-main">
                     <div class="hw-title">${esc(p.title)}</div>
                     <div class="hw-sub"><span>${esc(p.date)}</span><span class="pill">${esc(p.type)}</span></div>
                 </div>
-                ${state.user ? (done ? '<span class="pill done">✓ 완료</span>' : '<span class="pill todo">미완료</span>') : ''}
             </a>`).join('') : '<div class="empty">조건에 맞는 숙제가 없어요.</div>';
     };
     draw();
@@ -329,14 +332,17 @@ function loadOrderQuestion() {
     const total = pkg.questions.length;
     view.innerHTML = `
         <div class="game-head">
-            <div class="progress-bar"><span style="width:${(og.qIdx / total) * 100}%"></span></div>
+            <div class="sp-seg">${Array.from({ length: total }, (_, k) => `<i class="${k < og.qIdx ? 'done' : k === og.qIdx ? 'cur' : ''}"></i>`).join('')}</div>
             <div class="counter">${og.qIdx + 1} / ${total}</div>
         </div>
-        <div class="prompt-ko">${esc(q.ko)}</div>
+        <div class="sp-prompt">
+            <span class="sp-label">이렇게 말해 보세요</span>
+            <div class="prompt-ko">${esc(q.ko)}</div>
+        </div>
         <div class="answer-zone" id="answer-zone"></div>
         <div class="word-pool" id="word-pool"></div>
         <div class="voice-panel hidden" id="voice-panel">
-            <span class="dot"></span>
+            <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
             <span class="heard" id="heard"><em>듣고 있어요… 문장을 소리 내어 말해 보세요</em></span>
         </div>
         <div class="game-bottom">
@@ -442,12 +448,13 @@ function renderOrderDone() {
                 <div class="stat-row"><span>인증 일시</span><b>${fmtNow()}</b></div>
             </div>
 
-            <div class="card">
-                <div class="stat-row"><span>입력 방식</span><b>🎤 스피킹 ${voicePct}%</b></div>
-                <div class="ratio-bar"><span class="tap" style="width:${tapPct}%"></span><span class="voice" style="width:${voicePct}%"></span></div>
-                <div class="ratio-legend">
-                    <span><i style="background:var(--ink)"></i>탭 ${tapPct}% (${og.tap}단어)</span>
-                    <span><i style="background:var(--mic)"></i>스피킹 ${voicePct}% (${og.voice}단어)</span>
+            <div class="card sp-ratio">
+                <div class="sp-donut" style="--voice:${voicePct}">
+                    <div><b>${voicePct}%</b><small>스피킹</small></div>
+                </div>
+                <div class="sp-legends">
+                    <div class="sp-legend"><i class="tap"></i><span>탭</span><b>${tapPct}%</b><em>${og.tap}단어</em></div>
+                    <div class="sp-legend"><i class="voice"></i><span>스피킹</span><b>${voicePct}%</b><em>${og.voice}단어</em></div>
                 </div>
             </div>
 
